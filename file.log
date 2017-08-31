@@ -1,0 +1,182 @@
+there is something wrong.
+this package is not support with anything over 1.9.x.
+since the ur_driver is, AFAIK, not compatible with UR v3.X.
+but do not delete this folder.
+
+https://github.com/ros-industrial/universal_robot
+
+
+
+
+
+
+############################    lirui   ############2017.8.31
+
+
+
+
+if you want to go ahead ,please just download the  ur_modern_driver.
+
+
+
+https://github.com/ThomasTimm/ur_modern_driver
+
+I will test the package above.
+
+
+###########################      lirui #############2017.8.31
+
+
+
+I have already tried it,but this package can't world correctly.
+
+I will find a new one.
+
+
+
+http://www.linuxidc.com/Linux/2017-03/141507.htm  
+
+This web published one metheod. I will try it.
+
+
+yes. I compile the package successfull.
+##########################     lirui  #########2017.8.31.
+
+
+step 1:download universal_robot_kinetic_devel into the catkin_ws/src
+
+step 2:dowload  ur_modern_driver_master  into the file above to take the place of ur_driver
+
+step 3: change the  ur_hardware_interface.cpp  with the codes in the  web http://www.linuxidc.com/Linux/2017-03/141507.htm  
+
+step 4: catkin_make
+##########################  lirui    ########### 2017.8.31
+
+
+It's  apparently that  that way can't work.
+
+
+I will try a new one.
+https://github.com/VCBE123/ur_modern_driver      this is my own page.
+
+
+there is something wrong .
+
+I do it once again.
+
+###########################  lirui ##########2017.8.31
+
+
+
+
+Successsfull!!!!!!!!!!!!!!!!!!!!!!
+
+please do not delete this file. I will upload a correct  package.
+ 
+***************************************************github*********************
+
+
+
+step 1:install git 
+
+	$ git
+		The program 'git' is currently not installed. You can install it by typing:
+		sudo apt-get install git
+step 2:
+	$ git config --global user.name "Your Name"
+	$ git config --global user.email "email@example.com"
+
+step 3： creat repository
+	$ mkdir learngit
+	$ cd learngit
+	$ pwd
+	/Users/michael/learngit
+
+step 4: init 
+
+	$ git init
+	Initialized empty Git repository in /Users/michael/learngit/.git/
+
+step 5: add readme.txt
+
+	
+       ........ git add readme.txt
+
+step 6: commit 
+
+	$ git commit -m "wrote a readme file"  ## -m  : message
+	[master (root-commit) cb926e7] wrote a readme file
+	 1 file changed, 2 insertions(+)
+	 create mode 100644 readme.txt
+
+step  7: ...git add --all
+
+***********************************************commit to remote repository*************
+###############################https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+step  1: creat ssh key
+	$ ssh-keygen -t rsa -C "youremail@example.com"	
+	Generating public/private rsa key pair.
+	Enter file in which to save the key (/home/jzhang/.ssh/id_rsa): 
+	Enter passphrase (empty for no passphrase): 
+	Enter same passphrase again: 
+	Your identification has been saved in /home/jzhang/.ssh/id_rsa.
+	Your public key has been saved in /home/jzhang/.ssh/id_rsa.pub.
+	The key fingerprint is:
+	SHA256:s1JHGMX2rnsWn8r06Snqxwv9lvvM06aX4fc6mN3V2Oo vcbe123@gmail.com
+	The key's randomart image is:
+	+---[RSA 2048]----+
+	|        .o.      |
+	|         oo      |
+	|        ....     |
+	|         .  .    |
+	|        S ..   o.|
+	|       . + .o ..+|
+	|      . . .oo*.==|
+	|       .  .+OoOO*|
+	|         .+*+BEOO|
+	+----[SHA256]-----+
+
+step 2: visit  https://github.com/
+         signin your acount.
+
+
+step 3: add SSH keys   id_rsa.pub
+
+step 4: add remot repository  
+	sign in GitHub & creat a new repo   ur5  &  public & Apache License
+
+
+step 5: commit to remote repo
+ 
+	$ git remote add origin git@github.com:VCBE123/ur5.git  ##username VCBE123 /repo name ur5
+
+ 
+step 6: push 
+
+	$ git push -u origin master  ####push master to origin 
+	error: 无法推送一些引用到 'git@github.com:VCBE123/ur5.git'
+
+	$ git push  origin +master
+
+step 7:success!!!!
+************************************************************lirui 2017.8.31*********************8
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
