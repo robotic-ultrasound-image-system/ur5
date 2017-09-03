@@ -72,8 +72,8 @@
 namespace ros_control_ur {
 
 // For simulation only - determines how fast a trajectory is followed
-static const double POSITION_STEP_FACTOR = 1;
-static const double VELOCITY_STEP_FACTOR = 1;
+static const double POSITION_STEP_FACTOR = 0.3;
+static const double VELOCITY_STEP_FACTOR = 0.3;
 
 /// \brief Hardware interface for a robot
 class UrHardwareInterface: public hardware_interface::RobotHW {

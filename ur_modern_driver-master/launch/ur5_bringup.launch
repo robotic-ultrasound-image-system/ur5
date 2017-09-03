@@ -7,10 +7,10 @@
     ur5_bringup.launch robot_ip:=<value>
 -->
 <launch>
-  
+  <node name="kinect2_viewer" pkg="kinect2_viewer" type="kinect2_viewer"/>
   <!-- robot_ip: IP-address of the robot's socket-messaging server -->
-  <arg name="robot_ip"/>
-  <arg name="limited" default="false"/>
+  <arg name="robot_ip" default="192.168.1.5"/>
+  <arg name="limited" default="true"/>
   <arg name="min_payload"  default="0.0"/>
   <arg name="max_payload"  default="5.0"/>
   <arg name="prefix" default="" />
@@ -26,5 +26,13 @@
     <arg name="min_payload"  value="$(arg min_payload)"/>
     <arg name="max_payload"  value="$(arg max_payload)"/>
   </include>
+
+  <!-- kinect2_bridge -->
+  <include file="$(find kinect2_bridge)/launch/kinect2_bridge.launch">
+  </include>
+
+
+
+
 
 </launch>

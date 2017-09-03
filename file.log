@@ -160,10 +160,39 @@ step 6: push
 	$ git push  origin +master
 
 step 7:success!!!!
-************************************************************lirui 2017.8.31*********************8
+************************************************************lirui 2017.8.31*********************
+
+################开通博客##########http://blog.csdn.net/u014515463####https://github.com/VCBE123/ur5
+
+****************************ubuntu screen cut**************photo edit*****
+ press :Prscrn    $ shotwell   
+
+***********************************************************lirui 2017.9.3********************
+
+modify the launch file:
+
+default robot_ip=192.168.1.5
+limit=true
+
+ur5_bringup.launch--     include < kinect2_bridge.launch  delete "output =screen" >    node <kinect2_viewer>
+
+the hardware_interface--  just for sim speed from 1 to 0.3   
+
+***********************************************************lirui 2017.9.3*******8       
+download   ros_controller from     https://github.com/ros-controls/ros_control
+catkin_make successfull 
+rosrun rqt_controller_manager rqt_controller_manager      successfull    <$ rm ~/.config/ros.org/rqt_gui.ini >
+
+
+modify the  /home/jzhang/catkin_ws/src/ur_modern_driver-master/ur5_moveit_config/config/ controller.yaml   as showing in the readmme.md
+
+
+
 
 
  
+
+  
 
 
 

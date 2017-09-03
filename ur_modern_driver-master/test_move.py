@@ -68,18 +68,18 @@ def move_repeated():
     try:
         joint_states = rospy.wait_for_message("joint_states", JointState)
         joints_pos = joint_states.position
-        d = 2.0
+        d = 5.0
         g.trajectory.points = [JointTrajectoryPoint(positions=joints_pos, velocities=[0]*6, time_from_start=rospy.Duration(0.0))]
-        for i in range(10):
+        for i in range(20):
             g.trajectory.points.append(
                 JointTrajectoryPoint(positions=Q1, velocities=[0]*6, time_from_start=rospy.Duration(d)))
-            d += 1
+            d += 2
             g.trajectory.points.append(
                 JointTrajectoryPoint(positions=Q2, velocities=[0]*6, time_from_start=rospy.Duration(d)))
-            d += 1
+            d += 2
             g.trajectory.points.append(
                 JointTrajectoryPoint(positions=Q3, velocities=[0]*6, time_from_start=rospy.Duration(d)))
-            d += 2
+            d += 3
         client.send_goal(g)
         client.wait_for_result()
     except KeyboardInterrupt:
@@ -123,6 +123,7 @@ def main():
     global client
     try:
         rospy.init_node("test_move", anonymous=True, disable_signals=True)
+     
         client = actionlib.SimpleActionClient('follow_joint_trajectory', FollowJointTrajectoryAction)
         print "Waiting for server..."
         client.wait_for_server()
