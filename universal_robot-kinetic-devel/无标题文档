@@ -1,0 +1,256 @@
+ universal_robot-kinetic-devel
+    ├── README.md
+    ├── universal_robot
+    │   ├── CHANGELOG.rst
+    │   ├── CMakeLists.txt
+    │   └── package.xml
+    ├── ur10_moveit_config
+    │   ├── CHANGELOG.rst
+    │   ├── CMakeLists.txt
+    │   ├── config
+    │   │   ├── controllers.yaml
+    │   │   ├── fake_controllers.yaml
+    │   │   ├── joint_limits.yaml
+    │   │   ├── kinematics.yaml
+    │   │   ├── ompl_planning.yaml
+    │   │   └── ur10.srdf
+    │   ├── launch
+    │   │   ├── default_warehouse_db.launch
+    │   │   ├── demo.launch
+    │   │   ├── fake_moveit_controller_manager.launch.xml
+    │   │   ├── move_group.launch
+    │   │   ├── moveit.rviz
+    │   │   ├── moveit_rviz.launch
+    │   │   ├── ompl_planning_pipeline.launch.xml
+    │   │   ├── planning_context.launch
+    │   │   ├── planning_pipeline.launch.xml
+    │   │   ├── run_benchmark_ompl.launch
+    │   │   ├── sensor_manager.launch.xml
+    │   │   ├── setup_assistant.launch
+    │   │   ├── trajectory_execution.launch.xml
+    │   │   ├── ur10_moveit_controller_manager.launch.xml
+    │   │   ├── ur10_moveit_planning_execution.launch
+    │   │   ├── ur10_moveit_sensor_manager.launch.xml
+    │   │   ├── warehouse.launch
+    │   │   └── warehouse_settings.launch.xml
+    │   └── package.xml
+    ├── ur3_moveit_config
+    │   ├── CHANGELOG.rst
+    │   ├── CMakeLists.txt
+    │   ├── config
+    │   │   ├── controllers.yaml
+    │   │   ├── fake_controllers.yaml
+    │   │   ├── joint_limits.yaml
+    │   │   ├── kinematics.yaml
+    │   │   ├── ompl_planning.yaml
+    │   │   └── ur3.srdf
+    │   ├── launch
+    │   │   ├── default_warehouse_db.launch
+    │   │   ├── demo.launch
+    │   │   ├── fake_moveit_controller_manager.launch.xml
+    │   │   ├── joystick_control.launch
+    │   │   ├── move_group.launch
+    │   │   ├── moveit.rviz
+    │   │   ├── moveit_rviz.launch
+    │   │   ├── ompl_planning_pipeline.launch.xml
+    │   │   ├── planning_context.launch
+    │   │   ├── planning_pipeline.launch.xml
+    │   │   ├── run_benchmark_ompl.launch
+    │   │   ├── sensor_manager.launch.xml
+    │   │   ├── setup_assistant.launch
+    │   │   ├── trajectory_execution.launch.xml
+    │   │   ├── ur3_moveit_controller_manager.launch.xml
+    │   │   ├── ur3_moveit_planning_execution.launch
+    │   │   ├── ur3_moveit_sensor_manager.launch.xml
+    │   │   ├── warehouse.launch
+    │   │   └── warehouse_settings.launch.xml
+    │   └── package.xml
+    ├── ur5_moveit_config
+    │   ├── CHANGELOG.rst
+    │   ├── CMakeLists.txt
+    │   ├── config
+    │   │   ├── controllers.yaml
+    │   │   ├── fake_controllers.yaml
+    │   │   ├── joint_limits.yaml
+    │   │   ├── kinematics.yaml
+    │   │   ├── ompl_planning.yaml
+    │   │   └── ur5.srdf
+    │   ├── launch
+    │   │   ├── default_warehouse_db.launch
+    │   │   ├── demo.launch
+    │   │   ├── fake_moveit_controller_manager.launch.xml
+    │   │   ├── move_group.launch
+    │   │   ├── moveit.rviz
+    │   │   ├── moveit_rviz.launch
+    │   │   ├── ompl_planning_pipeline.launch.xml
+    │   │   ├── planning_context.launch
+    │   │   ├── planning_pipeline.launch.xml
+    │   │   ├── run_benchmark_ompl.launch
+    │   │   ├── sensor_manager.launch.xml
+    │   │   ├── setup_assistant.launch
+    │   │   ├── trajectory_execution.launch.xml
+    │   │   ├── ur5_moveit_controller_manager.launch.xml
+    │   │   ├── ur5_moveit_planning_execution.launch
+    │   │   ├── ur5_moveit_sensor_manager.launch.xml
+    │   │   ├── warehouse.launch
+    │   │   └── warehouse_settings.launch.xml
+    │   └── package.xml
+    ├── ur_bringup
+    │   ├── CHANGELOG.rst
+    │   ├── CMakeLists.txt
+    │   ├── launch
+    │   │   ├── ur10_bringup_joint_limited.launch
+    │   │   ├── ur10_bringup.launch
+    │   │   ├── ur3_bringup_joint_limited.launch
+    │   │   ├── ur3_bringup.launch
+    │   │   ├── ur5_bringup_joint_limited.launch
+    │   │   ├── ur5_bringup.launch
+    │   │   └── ur_common.launch
+    │   └── package.xml
+    ├── ur_description
+    │   ├── CHANGELOG.rst
+    │   ├── CMakeLists.txt
+    │   ├── launch
+    │   │   ├── test.launch
+    │   │   ├── ur10_upload.launch
+    │   │   ├── ur3_upload.launch
+    │   │   └── ur5_upload.launch
+    │   ├── meshes
+    │   │   ├── ur10
+    │   │   │   ├── collision
+    │   │   │   │   ├── base.stl
+    │   │   │   │   ├── forearm.stl
+    │   │   │   │   ├── shoulder.stl
+    │   │   │   │   ├── upperarm.stl
+    │   │   │   │   ├── wrist1.stl
+    │   │   │   │   ├── wrist2.stl
+    │   │   │   │   └── wrist3.stl
+    │   │   │   └── visual
+    │   │   │       ├── base.dae
+    │   │   │       ├── forearm.dae
+    │   │   │       ├── shoulder.dae
+    │   │   │       ├── upperarm.dae
+    │   │   │       ├── wrist1.dae
+    │   │   │       ├── wrist2.dae
+    │   │   │       └── wrist3.dae
+    │   │   ├── ur3
+    │   │   │   ├── collision
+    │   │   │   │   ├── base.stl
+    │   │   │   │   ├── forearm.stl
+    │   │   │   │   ├── shoulder.stl
+    │   │   │   │   ├── upperarm.stl
+    │   │   │   │   ├── wrist1.stl
+    │   │   │   │   ├── wrist2.stl
+    │   │   │   │   └── wrist3.stl
+    │   │   │   └── visual
+    │   │   │       ├── base.dae
+    │   │   │       ├── forearm.dae
+    │   │   │       ├── shoulder.dae
+    │   │   │       ├── upperarm.dae
+    │   │   │       ├── wrist1.dae
+    │   │   │       ├── wrist2.dae
+    │   │   │       └── wrist3.dae
+    │   │   └── ur5
+    │   │       ├── collision
+    │   │       │   ├── base.stl
+    │   │       │   ├── forearm.stl
+    │   │       │   ├── shoulder.stl
+    │   │       │   ├── upperarm.stl
+    │   │       │   ├── wrist1.stl
+    │   │       │   ├── wrist2.stl
+    │   │       │   └── wrist3.stl
+    │   │       └── visual
+    │   │           ├── base.dae
+    │   │           ├── forearm.dae
+    │   │           ├── shoulder.dae
+    │   │           ├── upperarm.dae
+    │   │           ├── wrist1.dae
+    │   │           ├── wrist2.dae
+    │   │           └── wrist3.dae
+    │   ├── model.pdf
+    │   ├── package.xml
+    │   └── urdf
+    │       ├── common.gazebo.xacro
+    │       ├── ur10_joint_limited_robot.urdf.xacro
+    │       ├── ur10_robot.urdf.xacro
+    │       ├── ur10.urdf.xacro
+    │       ├── ur3_joint_limited_robot.urdf.xacro
+    │       ├── ur3_robot.urdf.xacro
+    │       ├── ur3.urdf.xacro
+    │       ├── ur5_joint_limited_robot.urdf.xacro
+    │       ├── ur5_robot.urdf.xacro
+    │       ├── ur5.urdf.xacro
+    │       ├── ur.gazebo.xacro
+    │       └── ur.transmission.xacro
+    ├── ur_driver
+    │   ├── cfg
+    │   │   └── URDriver.cfg
+    │   ├── CHANGELOG.rst
+    │   ├── CMakeLists.txt
+    │   ├── package.xml
+    │   ├── prog
+    │   ├── prog_reset
+    │   ├── setup.py
+    │   ├── src
+    │   │   └── ur_driver
+    │   │       ├── deserialize.py
+    │   │       ├── deserialize.pyc
+    │   │       ├── deserializeRT.py
+    │   │       ├── deserializeRT.pyc
+    │   │       ├── driver.py
+    │   │       ├── __init__.py
+    │   │       ├── io_interface.py
+    │   │       ├── test_comm.py
+    │   │       └── testRT_comm.py
+    │   ├── test_io.py
+    │   └── test_move.py
+    ├── ur_gazebo
+    │   ├── CHANGELOG.rst
+    │   ├── CMakeLists.txt
+    │   ├── controller
+    │   │   ├── arm_controller_ur10.yaml
+    │   │   ├── arm_controller_ur3.yaml
+    │   │   ├── arm_controller_ur5.yaml
+    │   │   └── joint_state_controller.yaml
+    │   ├── launch
+    │   │   ├── controller_utils.launch
+    │   │   ├── ur10_joint_limited.launch
+    │   │   ├── ur10.launch
+    │   │   ├── ur3_joint_limited.launch
+    │   │   ├── ur3.launch
+    │   │   ├── ur5_joint_limited.launch
+    │   │   └── ur5.launch
+    │   └── package.xml
+    ├── ur_kinematics
+    │   ├── CHANGELOG.rst
+    │   ├── CMakeLists.txt
+    │   ├── include
+    │   │   └── ur_kinematics
+    │   │       ├── ikfast.h
+    │   │       ├── ur_kin.h
+    │   │       └── ur_moveit_plugin.h
+    │   ├── package.xml
+    │   ├── src
+    │   │   ├── ur_kin.cpp
+    │   │   ├── ur_kinematics
+    │   │   │   └── test_analytical_ik.py
+    │   │   ├── ur_kin_py.cpp
+    │   │   └── ur_moveit_plugin.cpp
+    │   └── ur_moveit_plugins.xml
+    └── ur_msgs
+        ├── CHANGELOG.rst
+        ├── CMakeLists.txt
+        ├── msg
+        │   ├── Analog.msg
+        │   ├── Digital.msg
+        │   ├── IOStates.msg
+        │   ├── MasterboardDataMsg.msg
+        │   ├── RobotStateRTMsg.msg
+        │   └── ToolDataMsg.msg
+        ├── package.xml
+        └── srv
+            ├── SetIO.srv
+            └── SetPayload.srv
+
+64 directories, 258 files
+

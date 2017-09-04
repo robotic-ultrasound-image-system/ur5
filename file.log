@@ -191,7 +191,11 @@ modify the  /home/jzhang/catkin_ws/src/ur_modern_driver-master/ur5_moveit_config
 
 creat package robot_setup_tf    to pubulish the transform matrix from camera to robot 
 
-base_link  to kinect2_link         cmake successfull!!!
+base_link  to kinect2_link         cmake&test successfull!!!
+add tf_node to ur5_bringup.launch   successfull !!! need to be fixed.
+
+
+**************************************************************************************
 
 
 
