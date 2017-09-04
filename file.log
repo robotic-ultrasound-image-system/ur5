@@ -187,6 +187,13 @@ rosrun rqt_controller_manager rqt_controller_manager      successfull    <$ rm ~
 modify the  /home/jzhang/catkin_ws/src/ur_modern_driver-master/ur5_moveit_config/config/ controller.yaml   as showing in the readmme.md
 
 
+********************************************************lirui 2017.9.4 ***************
+
+creat package robot_setup_tf    to pubulish the transform matrix from camera to robot 
+
+base_link  to kinect2_link         cmake successfull!!!
+
+
 
 
 
