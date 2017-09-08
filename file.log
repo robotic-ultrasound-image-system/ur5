@@ -201,6 +201,13 @@ add tf_node to ur5_bringup.launch   successfull !!! need to be fixed.
 push the git repository   ur_modern_driver-master to remote.
 
 
+**********************************************************lirui 2017.9.8 ************
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+https://help.github.com/articles/changing-a-remote-s-url/
+
+***********************************************************************************
+
   
 
 
