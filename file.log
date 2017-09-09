@@ -251,7 +251,14 @@ kinetic &&  kinect2
 本地和远端不一致的解决方案 https://github.com/KylinGu/Test/blob/master/GitLearningExp.md
 强制更新 git push -f origin master*********************https://ask.helplib.com/268638
 
+solve fatal error :https://github.com/code-iai/iai_kinect2/issues/377
 
+add_definitions( -fexceptions )
+
+
+
+
+***************************************lirui 2017.9.9*********************
 
   
 
