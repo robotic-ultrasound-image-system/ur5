@@ -258,7 +258,10 @@ add_definitions( -fexceptions )
 
 
 
-***************************************lirui 2017.9.9*********************
+***************************************lirui 2017.9.10*********************
+push ros_control-kinetic-devel to remote
+comple successs.
+add ur5.launch realrobot sim with moveit_rviz
 
   
 
