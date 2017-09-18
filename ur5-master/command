@@ -51,3 +51,10 @@ gazebo:
 2.roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true limited:=true 设置带限制路径规划仿真
 3.roslaunch ur5_moveit_config moveit_rviz.launch config:=true  载入带参数的rviz路径规划。
 
+rosrun moveit_commander moveit_commander_cmdline.py
+
+rosrun ur_modern_driver test_move.py
+
+
+
+
