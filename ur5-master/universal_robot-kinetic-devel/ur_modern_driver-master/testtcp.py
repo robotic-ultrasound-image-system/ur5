@@ -20,20 +20,20 @@ def move_joint():
       arm.execute(traj)
       rospy.sleep(5)
 
-      joint_position=[0,0,0,0,-0.7,-0.7]
+      joint_position=[1.3,-0.30,0,0,0,0]
       arm.set_joint_value_target(joint_position)
       arm.go()
    
       rospy.sleep(5)
 
       arm.remember_joint_values('saved',joint_position)
-      arm.set_named_target("up")
+      arm.set_named_target("reset")
       arm.go()
       rospy.sleep(5)
       arm.set_named_target('saved')
       arm.go()
       rospy.sleep(5)
-      arm.set_named_target("up")
+      arm.set_named_target("reset")
       arm.go()
       moveit_commander.roscpp_shutdown()
     except KeyboardInterrupt:

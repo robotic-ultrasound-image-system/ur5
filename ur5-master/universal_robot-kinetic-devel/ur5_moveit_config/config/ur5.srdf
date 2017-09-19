@@ -32,6 +32,14 @@
         <joint name="wrist_2_joint" value="0" />
         <joint name="wrist_3_joint" value="0" />
     </group_state>
+    <group_state name="reset" group="manipulator">
+        <joint name="elbow_joint" value="1.5617" />
+        <joint name="shoulder_lift_joint" value="-1.1259" />
+        <joint name="shoulder_pan_joint" value="1.0532" />
+        <joint name="wrist_1_joint" value="0" />
+        <joint name="wrist_2_joint" value="0" />
+        <joint name="wrist_3_joint" value="0" />
+    </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="moveit_ee" parent_link="ee_link" group="endeffector" />
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->

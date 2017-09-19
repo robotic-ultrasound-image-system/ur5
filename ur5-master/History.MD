@@ -405,7 +405,15 @@ error:
 solve: 
 	
 	edit /ur5_moveit_planning_execution.launch"  set limited =true
-        edit /launch/moveit_rviz.launch">         set limited =true   
+        edit /launch/moveit_rviz.launch">         set limited =true
+----------------------------------------------------------------
+
+I rerun the setup_assistant again.
+  changes:
+       
+        * new staste "reset"
+        * kinematic solver ur_kinematics/UR5KinematicsPlugin
+        * edit the file   joint_limits.yaml all value  <3.15> >> <1.5>
   
 
 
