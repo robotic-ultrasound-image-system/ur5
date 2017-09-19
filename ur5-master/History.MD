@@ -29,7 +29,7 @@
  * [2017-9-11](#2017-9-11)
  * [2017-9-12](#2017-9-12)
  * [2017-9-18](#2017-9-18)
-
+ * [2017-9-19](#2017-9-19)
 ----------------------------------
 # 2017-8-31
 ----------------------------------
@@ -295,62 +295,62 @@ so full step:
 # 2017-9-18
 ----------------------------------------------------
 add moveit_commander and work fine.  
-usage:
-  1. roslaunch ur_modern_driver ur5.launch
-     * launch ur_bringup / move_group  /  rviz /moveit 
-  2. rosrun moveit_commander moveit_commander_cmdline.py
+usage:  
+  1. roslaunch ur_modern_driver ur5.launch  
+     * launch ur_bringup / move_group  /  rviz /moveit   
+  2. rosrun moveit_commander moveit_commander_cmdline.py  
   
-  3. use manipulator
+  3. use manipulator  
 
   4. just enjoy it!  
 
 tips:  
-help                show this screen
-  allow looking <true|false>       enable/disable looking around
-  allow replanning <true|false>    enable/disable replanning
-  constrain           clear path constraints
-  constrain <name>    use the constraint <name> as a path constraint
-  current             show the current state of the active group
-  database            display the current database connection (if any)
-  delete <name>       forget the joint values under the name <name>
-  eef                 print the name of the end effector attached to the current group
-  execute             execute a previously computed motion plan
-  go <name>           plan and execute a motion to the state <name>
-  go rand             plan and execute a motion to a random state
-  go <dir> <dx>|      plan and execute a motion in direction up|down|left|right|forward|backward for distance <dx>
-  ground              add a ground plane to the planning scene
-  id|which            display the name of the group that is operated on
-  joints              display names of the joints in the active group
-  load [<file>]       load a set of interpreted commands from a file
-  pick <name>         pick up object <name>
-  place <name>        place object <name>
-  plan <name>         plan a motion to the state <name>
-  plan rand           plan a motion to a random state
-  planner <name>      use planner <name> to plan next motion
-  record <name>       record the current joint values under the name <name>
-  rotate <x> <y> <z>  plan and execute a motion to a specified orientation (about the X,Y,Z axes)
-  save [<file>]       save the currently known variables as a set of commands
-  show                display the names and values of the known states
-  show <name>         display the value of a state
-  stop                stop the active group
-  time                show the configured allowed planning time
-  time <val>          set the allowed planning time
-  tolerance           show the tolerance for reaching the goal region
-  tolerance <val>     set the tolerance for reaching the goal region
-  trace <on|off>      enable/disable replanning or looking around
-  use <name>          switch to using the group named <name> (and load it if necessary)
-  use|groups          show the group names that are already loaded
-  vars                display the names of the known states
-  wait <dt>           sleep for <dt> seconds
-  x = y               assign the value of y to x
-  x = [v1 v2...]      assign a vector of values to x
-  x[idx] = val        assign a value to dimension idx of x
+	help                show this screen
+	  allow looking <true|false>       enable/disable looking around  
+	  allow replanning <true|false>    enable/disable replanning  
+	  constrain           clear path constraints  
+	  constrain <name>    use the constraint <name> as a path constraint  
+	  current             show the current state of the active group  
+	  database            display the current database connection (if any)  
+	  delete <name>       forget the joint values under the name <name>  
+	  eef                 print the name of the end effector attached to the current group  
+	  execute             execute a previously computed motion plan  
+	  go <name>           plan and execute a motion to the state <name>  
+	  go rand             plan and execute a motion to a random state  
+	  go <dir> <dx>|      plan and execute a motion in direction up|down|left|right|forward|backward for distance <dx>  
+	  ground              add a ground plane to the planning scene  
+	  id|which            display the name of the group that is operated on  
+	  joints              display names of the joints in the active group  
+	  load [<file>]       load a set of interpreted commands from a file  
+	  pick <name>         pick up object <name>  
+	  place <name>        place object <name>  
+	  plan <name>         plan a motion to the state <name>  
+	  plan rand           plan a motion to a random state  
+	  planner <name>      use planner <name> to plan next motion  
+	  record <name>       record the current joint values under the name <name>  
+	  rotate <x> <y> <z>  plan and execute a motion to a specified orientation (about the X,Y,Z axes)  
+	  save [<file>]       save the currently known variables as a set of commands  
+	  show                display the names and values of the known states  
+	  show <name>         display the value of a state  
+	  stop                stop the active group  
+	  time                show the configured allowed planning time  
+	  time <val>          set the allowed planning time  
+	  tolerance           show the tolerance for reaching the goal region  
+	  tolerance <val>     set the tolerance for reaching the goal region  
+	  trace <on|off>      enable/disable replanning or looking around  
+	  use <name>          switch to using the group named <name> (and load it if necessary)  
+	  use|groups          show the group names that are already loaded  
+	  vars                display the names of the known states  
+	  wait <dt>           sleep for <dt> seconds  
+	  x = y               assign the value of y to x  
+	  x = [v1 v2...]      assign a vector of values to x  
+	  x[idx] = val        assign a value to dimension idx of x  
 
 ------------------------------------------------------------
- **edit the testtcp.py**
- using moveit api to control the robot.
- based on forward kinematics
- the code is simple
+ **edit the testtcp.py**  
+ using moveit api to control the robot.  
+ based on forward kinematics  
+ the code is simple  
  
     
     try:
@@ -380,7 +380,36 @@ help                show this screen
 	arm.go()
 	moveit_commander.roscpp_shutdown()
 -----------------------------------------------------------
-	  
+
+# 2017-9-19
+-----------------------------------------------------------
+
+ **#Important changes**  
+ 
+ * Reconstruct the <ur5_moveit_config> package 
+ * in which i add the new state named " **reset** " 
+ * the joint state [-275° -76° 85° -102° -85° -93°]
+ 
+ * besides that ,i reset the kinematic matrix . the sample rate is higher
+
+------------------------------------------------------------
+
+ I will test this changes now .if it works better, i will commit it to the remote repository.  
+
+error:
+	when processing file: /home/jzhang/catkin_ws/src/ur5-master/universal_robot-kinetic-devel/ur_description/urdf/ur5.urdf.xacro  
+	included from: /home/jzhang/catkin_ws/src/ur5-master/universal_robot-kinetic-devel/ur_description/urdf/ur5_joint_limited_robot.urdf.xacro  
+	unused args [limited] for include of [/home/jzhang/catkin_ws/src/ur5-master/universal_robot-kinetic-devel/ur_description/launch/ur5_upload.launch]  
+	The traceback for the exception was written to the log file
+
+solve: 
+	
+	edit /ur5_moveit_planning_execution.launch"  set limited =true
+        edit /launch/moveit_rviz.launch">         set limited =true   
+  
+
+
+
 
 
 
