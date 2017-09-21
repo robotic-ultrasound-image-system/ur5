@@ -8,6 +8,7 @@ rosrun ur_modern_driver test_move.py
 
  rosrun tf view_frames
 
+ssh root@192.168.1.5  pwd:easybot
 
 
 cd ~/catkin_ws/src/ur_modern_driver-master/

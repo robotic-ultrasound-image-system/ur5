@@ -413,7 +413,18 @@ I rerun the setup_assistant again.
        
         * new staste "reset"
         * kinematic solver ur_kinematics/UR5KinematicsPlugin
-        * edit the file   joint_limits.yaml all value  <3.15> >> <1.5>
+        * edit the file   joint_limits.yaml all value  <3.15> >> <1.5> 
+
+-----------------------------------------------------------------
+
+the function to set **#max_velocity** and **#max_acceleration** :  
+
+ 
+ 	  
+*  arm.set_max_velocity_scaling_factor(0.2)  
+
+* arm.set_max_acceleration_scaling_factor(0.02) 
+----------------------------------------------------------------- 	
   
 
 

@@ -17,28 +17,21 @@ def move_joint():
       arm=moveit_commander.MoveGroupCommander('manipulator')
       
       end_effector_link=arm.get_end_effector_link()
-      reference_frame='base_link'
-      arm.set_pose_reference_frame(reference_frame)
-
-      arm.allow_replanning(True)
       arm.set_goal_position_tolerance(0.01)
       arm.set_goal_orientation_tolerance(0.1)
-    
-      arm.set_named_target("home")
+      arm.set_max_velocity_scaling_factor(0.2) 
+      arm.set_max_acceleration_scaling_factor(0.02) 
+      arm.set_named_target("reset")
       arm.go()
       rospy.sleep(2)
       
       
    
       
-      target_pose=PoseStamped()
-      target_pose.header.stamp=rospy.Time.now()
-      target_pose.pose.position.x=-0.40
-      target_pose.pose.position.y=-0.40
+
+      target_pose.pose.position.x=-0.62
+      target_pose.pose.position.y=-0.35
       target_pose.pose.position.z=0.20
-      target_pose.pose.orientation.x=1.5
-      target_pose.pose.orientation.y=-0.3
-      target_pose.pose.orientation.z=0.1
       target_pose.pose.orientation.w=1.0
 
   
@@ -53,7 +46,7 @@ def move_joint():
 
 
       saved_target_pose=arm.get_current_pose(end_effector_link)
-      arm.set_named_target("home")
+      arm.set_named_target("reset")
       arm.go()
       rospy.sleep(1)
       
@@ -80,6 +73,7 @@ def main():
         print "Connected to server"
         inp = raw_input("Continue? y/n: ")[0]
         if (inp == 'y'):
+
             move_joint()
         else:
             print "Halting program"
