@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+import sys
+import copy
 import rospy,sys
 import moveit_commander
 import actionlib
@@ -23,34 +25,64 @@ def move_joint():
       arm.set_max_acceleration_scaling_factor(0.02) 
       arm.set_named_target("reset")
       arm.go()
-      rospy.sleep(2)
+      rospy.sleep(5)
+      print "============ arrival reset "     
       
       
-   
       
-
-      target_pose.pose.position.x=-0.62
-      target_pose.pose.position.y=-0.35
+      target_pose=PoseStamped()
+      target_pose.header.frame_id='world'
+      target_pose.header.stamp=rospy.Time.now()
+      target_pose.pose.position.x=0.22
+      target_pose.pose.position.y=0.35
       target_pose.pose.position.z=0.20
       target_pose.pose.orientation.w=1.0
 
   
       
-      arm.set_pose_target(target_pose,end_effector_link)
+      arm.set_pose_target(target_pose)
       arm.set_start_state_to_current_state()
       
       traj=arm.plan()
       arm.execute(traj)
-      rospy.sleep(2)
-     
-
-
-      saved_target_pose=arm.get_current_pose(end_effector_link)
+      rospy.sleep(5)
+      print "============ arrival target "
       arm.set_named_target("reset")
       arm.go()
-      rospy.sleep(1)
-      
-      arm.set_pose_target(saved_target_pose,end_effector_link)
+      rospy.sleep(3)
+      print "============ arrival reset "     
+
+      arm.set_max_velocity_scaling_factor(0.1) 
+      arm.set_max_acceleration_scaling_factor(0.01) 
+      waypoints = []
+
+# start with the current pose
+      waypoints.append(arm.get_current_pose().pose)
+
+# first orient gripper and move forward (+x)
+      wpose = geometry_msgs.msg.Pose()
+      wpose.orientation.w = 1.0
+      wpose.position.x = waypoints[0].position.x 
+      wpose.position.y = waypoints[0].position.y
+      wpose.position.z = waypoints[0].position.z+0.1
+      waypoints.append(copy.deepcopy(wpose))
+
+# second move down
+      wpose.position.z += 0.10
+      waypoints.append(copy.deepcopy(wpose))
+
+# third move to the side
+      wpose.position.y += 0.05
+      waypoints.append(copy.deepcopy(wpose))
+      (plan3, fraction) = arm.compute_cartesian_path(
+                             waypoints,   # waypoints to follow
+                             0.01,        # eef_step
+                             0.0)         # jump_threshold
+   
+      arm.execute(plan3) 
+      rospy.sleep(5)
+      print "============ arrival waypoint "     
+      arm.set_named_target("up")
       arm.go()
       rospy.sleep(1)
      
