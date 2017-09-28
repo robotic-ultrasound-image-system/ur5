@@ -30,6 +30,7 @@
  * [2017-9-12](#2017-9-12)
  * [2017-9-18](#2017-9-18)
  * [2017-9-19](#2017-9-19)
+ * [2017-9-24](#2017-9-24)
 ----------------------------------
 # 2017-8-31
 ----------------------------------
@@ -425,6 +426,15 @@ the function to set **#max_velocity** and **#max_acceleration** :
 
 * arm.set_max_acceleration_scaling_factor(0.02) 
 ----------------------------------------------------------------- 	
+
+
+# 2017-9-19
+----------------------------------------------------------------
+There is something in the controller box ,the system can't boot.
+So I start to learn computer vision.
+
+* install Opencv3 VTK Cmake in my laptop. Win10 64 bit.
+* 
   
 
 
