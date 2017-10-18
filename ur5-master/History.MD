@@ -435,10 +435,41 @@ So I start to learn computer vision.
 
 * install Opencv3 VTK Cmake in my laptop. Win10 64 bit.
 * 
-  
+# 2017-10-7
+-------------------------------------------------------------
+
+install ctags
+
+:!ctags -R 
+
+# 2017-10-17
+
+-----------------------------------------------------------------
+
+debug the ros node 
+
+add some code to camakelist
+
+        http://blog.sina.com.cn/s/blog_602f87700102wjwk.html
+set (CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS}  -g ")
+set (CMAKE_VERBOSE_MAKEFILE ON)
+
+-----------------------------------------------------------
+AR 
+        <<http://wiki.ros.org/ar_track_alvar>>
+
+        1.  roslaunch kinect2_bridge kinect2_bridge.launch 
+
+        2. roslaunch ar_track_alvar pr2_indiv.launch 
+
+        3. rosrun rviz rviz -d 'rospack find ar_track_alvar'/ar_tags.rviz
+	
+        4. rostopic echo /ar_pose_marker/markers[0]
 
 
 
+-------------------------------------------------------------------
+try calibrate camera to base.
 
 
 

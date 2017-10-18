@@ -12,7 +12,7 @@ int main(int argc ,char** argv)
 	while(n.ok()){
 	broadcaster.sendTransform(
 	  tf::StampedTransform(
-		tf::Transform(tf::Quaternion(0,0,0 ,1),tf::Vector3(0,0,0)),
+		tf::Transform(tf::Quaternion(-0.448,0.5977,0.6344,0.1982),tf::Vector3(-0.279,-0.6866,0.4460)),
 		ros::Time::now(),"base_link","kinect2_link"));
 		r.sleep();
 
