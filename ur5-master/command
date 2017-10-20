@@ -1,5 +1,12 @@
+roslaunch easy_handeye publish.launch eye_on_hand:=false
+roslaunch ar_track_alvar pr2_indiv.launch 
+roslaunch easy_handeye calibrate.launch eye_on_hand:=false 
+roslaunch ur_modern_driver urfor_cali.launch 
+rostopic echo /ar_pose_marker/markers[0]
+ rosrun rviz rviz -d 'rospack find ar_track_alvar'/ar_tags.rviz
 
 
+rosrun  tf view_frames 
 roslaunch ur_modern_driver ur5_bringup.launch
 
 

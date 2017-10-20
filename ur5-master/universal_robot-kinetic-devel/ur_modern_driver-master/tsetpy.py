@@ -12,20 +12,15 @@ def move_group_python_interface_tutorial():
     rospy.init_node('move_group_python_interface_tutorial',
                 anonymous=True)
     robot = moveit_commander.RobotCommander()
-
+    scene = moveit_commander.PlanningSceneInterface()
     group = moveit_commander.MoveGroupCommander("manipulator")
     display_trajectory_publisher = rospy.Publisher(
                                     '/move_group/display_planned_path',
                                     moveit_msgs.msg.DisplayTrajectory,
                                     queue_size=20)
-
-    group.set_max_velocity_scaling_factor(0.2) 
-    group.set_max_acceleration_scaling_factor(0.02) 
-
-    group.set_named_target("reset")
-    group.go()
-    rospy.sleep(5)
-    print "============ arrival reset "
+    print "============ Waiting for RVIZ..."
+    rospy.sleep(10)
+    print "============ Starting tutorial "
     print "============ Reference frame: %s" % group.get_planning_frame()
     print "============ End effector: %s" % group.get_end_effector_link()
     print "============ Robot Groups:"
@@ -34,35 +29,35 @@ def move_group_python_interface_tutorial():
     print robot.get_current_state()
     print "============"
     print "============ Generating plan 1"
-
+    group.set_max_velocity_scaling_factor(0.2) 
+    group.set_max_acceleration_scaling_factor(0.02) 
     pose_target = geometry_msgs.msg.Pose()
     pose_target.orientation.w = 1.0
-    pose_target.position.x = 0.1
-    pose_target.position.y = 0.20
-    pose_target.position.z = 0.22
+    pose_target.position.x = -0.3
+    pose_target.position.y = -0.50
+    pose_target.position.z = 0.3
     group.set_pose_target(pose_target)
     plan1 = group.plan()
 
 
     print "============ Waiting while RVIZ displays plan1..."
-    rospy.sleep(3)
-#    group.go(wait=True)
-# Use execute instead if you would like the robot to follow
-# the plan that has already been computed
-#    group.execute(plan1)
-
+    rospy.sleep(5)
+    #group.go(wait=True)
+    # Use execute instead if you would like the robot to follow
+    # the plan that has already been computed
+    group.execute(plan1)
     group.clear_pose_targets()
 
-#    group_variable_values = group.get_current_joint_values()
-#    print "============ Joint values: ", group_variable_values
-#   rospy.sleep(1)
-#    group_variable_values[0] = 1
-#   group.set_joint_value_target(group_variable_values)
+    group_variable_values = group.get_current_joint_values()
+    print "============ Joint values: ", group_variable_values
 
-#    plan2 = group.plan()
+    group_variable_values[0] = 1
+    group.set_joint_value_target(group_variable_values)
 
-#    print "============ Waiting while RVIZ displays plan2..."
-#   rospy.sleep(5)
+    plan2 = group.plan()
+
+    print "============ Waiting while RVIZ displays plan2..."
+    rospy.sleep(5)
     group.go(wait=True)
 
 
@@ -92,7 +87,7 @@ def move_group_python_interface_tutorial():
                              0.5)         # jump_threshold
 
     print "============ Waiting while RVIZ displays plan3..."
-    rospy.sleep(3)
+    rospy.sleep(5)
 
 # Uncomment the line below to execute this plan on a real robot.
     group.execute(plan3)

@@ -26,7 +26,7 @@
     <!-- start the robot -->
     <include file="$(find ur_bringup)/launch/ur5_bringup.launch">
         <arg name="limited" value="true" />
-        <arg name="robot_ip" value="192.168.0.21" />
+        <arg name="robot_ip" value="192.168.1.5" />
     </include>
     <include file="$(find ur5_moveit_config)/launch/ur5_moveit_planning_execution.launch">
         <arg name="limited" value="true" />
@@ -43,8 +43,8 @@
         <arg name="robot_effector_frame" value="wrist_3_link" />
 
         <arg name="freehand_robot_movement" value="false" />
-        <arg name="robot_velocity_scaling" value="0.5" />
-        <arg name="robot_acceleration_scaling" value="0.2" />
+        <arg name="robot_velocity_scaling" value="0.1" />
+        <arg name="robot_acceleration_scaling" value="0.02" />
     </include>
 
 </launch>

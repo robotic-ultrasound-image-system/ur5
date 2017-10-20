@@ -9,14 +9,14 @@
     <!-- The input reference frames -->
     <arg name="robot_base_frame" default="base_link" />
     <arg name="robot_effector_frame" default="tool0" />
-    <arg name="tracking_base_frame" default="tracking_origin" />
-    <arg name="tracking_marker_frame" default="tracking_target" />
+    <arg name="tracking_base_frame" default="kinect2_link" />
+    <arg name="tracking_marker_frame" default="tool0" />
     
     <!-- Publish dummy frames while calibrating -->
-    <arg name="publish_dummy" default="true" doc="if true, a dummy calibration will be published to keep all frames in a single tf tree, hence visualized in RViz" />
+    <arg name="publish_dummy" default="false" doc="if true, a dummy calibration will be published to keep all frames in a single tf tree, hence visualized in RViz" />
     
     <!-- GUI arguments -->
-    <arg name="start_rviz" default="true" doc="if true, rviz will be started with the provided config file" />
+    <arg name="start_rviz" default="false" doc="if true, rviz will be started with the provided config file" />
     <arg name="rviz_config_file" default="$(find easy_handeye)/launch/rviz_easy_handeye.config" doc="the path to the rviz config file to be opened" />
     <arg name="start_rqt" default="true" doc="if true, rqt will be started with the provided perspective" />
     <arg name="rqt_perspective_file" default="$(find easy_handeye)/launch/rqt_easy_handeye.perspective" doc="the path to the rqt perspective file to be opened" />
@@ -26,7 +26,7 @@
     <arg name="translation_delta_meters" default="0.1" doc="the maximum movement that the robot should perform in the translation phase" />
     <arg name="rotation_delta_degrees" default="25" doc="the maximum rotation that the robot should perform" />
     <arg name="robot_velocity_scaling" default="0.3" doc="the maximum speed the robot should reach, as a factor of the speed declared in the joint_limits.yaml" />
-    <arg name="robot_acceleration_scaling" default="0.2" doc="the maximum acceleration the robot should reach, as a factor of the acceleration declared in the joint_limits.yaml" />
+    <arg name="robot_acceleration_scaling" default="0.04" doc="the maximum acceleration the robot should reach, as a factor of the acceleration declared in the joint_limits.yaml" />
     
     <!-- Dummy calibration to have a fully connected TF tree and see all frames -->
     <group if="$(arg publish_dummy)">
@@ -62,10 +62,10 @@
     <!-- start GUI (Rviz and rqt_easy_handeye) -->
     
     <!--TODO: use this as soon as rviz rqt plugin accepts config parameter-->
-    <!--<group ns="$(arg namespace)" >
+    <!--group ns="$(arg namespace)" >
         <node if="$(arg start_rqt)" unless="$(arg eye_on_hand)" name="$(arg namespace)_rqt" pkg="rqt" type="rqt" respawn="false" 
             args="clear-config perspective-file $(arg rqt_perspective_file)" output="screen" />
-    </group>-->
+    </group-->
     
     <!--TODO: remove as soon as rviz rqt plugin accepts config parameter-->  
     <node if="$(arg start_rviz)" name="$(anon rviz)" pkg="rviz" type="rviz" respawn="true" 

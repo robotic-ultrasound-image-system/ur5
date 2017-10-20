@@ -2,13 +2,12 @@
 <!--
   Universal robot ur5 launch.  Loads ur5 robot description (see ur_common.launch
   for more info)
-
   Usage:
     ur5_bringup.launch robot_ip:=<value>
 -->
 <launch>
   <!-- add kinect2 frame -->
-  <!--node name="kinect2_viewer" pkg="kinect2_viewer" type="kinect2_viewer"/-->
+  <node name="kinect2_viewer" pkg="kinect2_viewer" type="kinect2_viewer"/>
   <node name="tf_broadcaster" pkg="robot_setup_tf" type="tf_broadcaster"/>
   <node name="tf_listener"    pkg="robot_setup_tf" type="tf_listener"/>
 

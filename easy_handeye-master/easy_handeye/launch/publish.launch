@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <launch>
     <arg name="eye_on_hand" doc="eye-on-hand instead of eye-on-base" />
-    <arg name="namespace_prefix" default="easy_handeye" />
-    <arg if="$(arg eye_on_hand)" name="namespace" value="$(arg namespace_prefix)_eye_on_hand" />
+    <arg name="namespace_prefix" default="universal_robot" />
+    <arg if="$(arg eye_on_hand)" name="namespace" value="$(arg namespace_prefix)" />
     <arg unless="$(arg eye_on_hand)" name="namespace" value="$(arg namespace_prefix)_eye_on_base" />
 
     <!--it is possible to override the link names saved in the yaml file in case of name clashes, for example-->

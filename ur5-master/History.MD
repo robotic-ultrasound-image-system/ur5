@@ -437,22 +437,22 @@ So I start to learn computer vision.
 * 
 # 2017-10-7
 -------------------------------------------------------------
+ 
+install ctags  
 
-install ctags
-
-:!ctags -R 
+:!ctags -R   
 
 # 2017-10-17
 
 -----------------------------------------------------------------
 
-debug the ros node 
+debug the ros node   
 
-add some code to camakelist
+add some code to camakelist  
 
         http://blog.sina.com.cn/s/blog_602f87700102wjwk.html
-set (CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS}  -g ")
-set (CMAKE_VERBOSE_MAKEFILE ON)
+set (CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS}  -g ")  
+set (CMAKE_VERBOSE_MAKEFILE ON)  
 
 -----------------------------------------------------------
 AR 
@@ -469,12 +469,31 @@ AR
 
 
 -------------------------------------------------------------------
-try calibrate camera to base.
+try calibrate camera to base.  
+modefied the **testik.py**  
+-------------------------------------------------------------------
 
+# 2017-10-18
+------------------------------------------------------------------
+set up eclipse for ros  　　　
+        http://blog.csdn.net/zhangrelay/article/details/51487321
+-----------------------------------------------------------------
+手眼標定：　  　　
+　　　　　存在问题：ros中坐标系与真实机械臂相同。但是得到的末端位姿xy都相反
+	　　		
+----------------------------------------------------------------------------------
 
+# 2017-10-19
+----------------------------------------------------------------------
 
+标定步骤：  
 
+	１．粘贴AR标签  
+	２．启动带tf的kinect2　　　	<<roslaunch kinect2_bridge kinect2_bridge.launch>>  	
 
+	３．启动用于标定的机器人程序　　<<roslaunch ur_modern_driver urfor_cali.launch >>
+
+	4.启动标定程序　		<< roslaunch easy_handeye calibrate.launch eye_on_hand:=false>>  
 
 
 
