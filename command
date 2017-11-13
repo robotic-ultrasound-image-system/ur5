@@ -1,0 +1,68 @@
+roslaunch easy_handeye publish.launch eye_on_hand:=false
+roslaunch ar_track_alvar pr2_indiv.launch 
+roslaunch easy_handeye calibrate.launch eye_on_hand:=false 
+roslaunch ur_modern_driver urfor_cali.launch 
+rostopic echo /ar_pose_marker/markers[0]
+ rosrun rviz rviz -d 'rospack find ar_track_alvar'/ar_tags.rviz
+
+
+rosrun  tf view_frames 
+roslaunch ur_modern_driver ur5_bringup.launch
+
+
+rosrun ur_modern_driver test_move.py
+
+
+ rosrun tf view_frames
+
+ssh root@192.168.1.5  pwd:easybot
+
+
+cd ~/catkin_ws/src/ur_modern_driver-master/
+
+roslaunch kinect2_bridge kinect2_bridge.launch
+rosrun kinect2_viewer kinect2_viewer sd cloud
+
+socket 192.168.1.5 29999
+
+
+ roslaunch ur_gazebo ur5.launch
+
+roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=false
+roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+
+
+roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch
+
+
+
+roslaunch ur_bringup ur5_bringup.launch limited:=true robot_ip:=IP_OF_THE_ROBOT [reverse_port:=REVERSE_PORT]
+
+roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch limited:=true
+
+roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+
+roslaunch ur_gazebo ur5.launch
+
+
+
+
+real robot:
+1.roslaunch ur_modern_driver ur5_bringup.launch
+2.roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=false limited:=true
+3.roslaunch ur5_moveit_config moveit_rviz.launch config:=true 
+
+
+gazebo:
+1.roslaunch ur_gazebo ur5.launch limited:=true	载入带限制的gazebo模型
+2.roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true limited:=true 设置带限制路径规划仿真
+3.roslaunch ur5_moveit_config moveit_rviz.launch config:=true  载入带参数的rviz路径规划。
+
+rosrun moveit_commander moveit_commander_cmdline.py
+
+rosrun ur_modern_driver test_move.py
+
+
+
+
