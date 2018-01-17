@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.4.1, 2018-01-17T08:56:27. -->
+<!-- Written by QtCreator 4.4.1, 2018-01-17T09:15:31. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -102,20 +102,10 @@
     <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
     <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
-     <value type="QString">CMAKE_PREFIX_PATH=/home/us-robot/catkin_ws/devel:/opt/ros/kinetic</value>
-     <value type="QString">LD_LIBRARY_PATH=/home/us-robot/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu</value>
      <value type="QString">PATH=/opt/ros/kinetic/bin:/home/us-robot/bin:/home/us-robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
-     <value type="QString">PKG_CONFIG_PATH=/home/us-robot/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig</value>
      <value type="QString">PWD=/home/us-robot/catkin_ws</value>
-     <value type="QString">PYTHONPATH=/home/us-robot/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages</value>
      <value type="QString">QTDIR</value>
-     <value type="QString">ROSLISP_PACKAGE_DIRECTORIES=/home/us-robot/catkin_ws/devel/share/common-lisp</value>
-     <value type="QString">ROS_DISTRO=kinetic</value>
-     <value type="QString">ROS_ETC_DIR=/opt/ros/kinetic/etc/ros</value>
-     <value type="QString">ROS_MASTER_URI=http://localhost:11311</value>
-     <value type="QString">ROS_PACKAGE_PATH=/home/us-robot/catkin_ws/src:/opt/ros/kinetic/share</value>
-     <value type="QString">ROS_ROOT=/opt/ros/kinetic/share/ros</value>
-     <value type="QString">SHLVL=2</value>
+     <value type="QString">SHLVL=3</value>
      <value type="QString">TERM=xterm</value>
      <value type="QString">_=/usr/bin/env</value>
     </valuelist>
