@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/devel
+
+Name: ur_gazebo
+Description: Description of ur_gazebo
+Version: 1.2.0
+Cflags: 
+Libs: -L/home/us-robot/catkin_ws/devel/lib 
+Requires: 

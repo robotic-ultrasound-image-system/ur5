@@ -1,0 +1,40 @@
+<package>
+  <name>visp_ros</name>
+  <version>1.0.0</version>
+    <description>
+     An extension of ViSP library that interfaces ROS into usual ViSP classes and a basket of generic ros nodes based on ViSP.
+  </description>
+  <author>Francois Pasteau</author>
+  <author>Fabien Spindler</author>
+  <license>GPLv2</license>
+  <url>http://ros.org/wiki/visp_ros</url>
+  <maintainer email="Fabien.Spindler@inria.fr">Fabien Spindler</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_geometry</build_depend>
+  <build_depend>visp_bridge</build_depend>
+  <build_depend>tf</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>image_geometry</run_depend>
+  <run_depend>visp_bridge</run_depend>
+  <run_depend>tf</run_depend>
+
+  <export>
+     <rosdoc config="${prefix}/rosdoc.yaml" />
+  </export>
+
+</package>

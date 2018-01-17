@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/install
+
+Name: kinect2_registration
+Description: Description of kinect2_registration
+Version: 0.0.1
+Cflags: -I/home/us-robot/catkin_ws/install/include -I/usr/include
+Libs: -L/home/us-robot/catkin_ws/install/lib -lkinect2_registration -l:/usr/lib/x86_64-linux-gnu/libOpenCL.so
+Requires: 

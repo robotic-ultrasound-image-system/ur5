@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/devel
+
+Name: kinect2_viewer_click
+Description: Description of kinect2_viewer_click
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/us-robot/catkin_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/devel
+
+Name: rqt_controller_manager
+Description: Description of rqt_controller_manager
+Version: 0.12.0
+Cflags: 
+Libs: -L/home/us-robot/catkin_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/devel
+
+Name: rqt_easy_handeye
+Description: Description of rqt_easy_handeye
+Version: 0.2.0
+Cflags: 
+Libs: -L/home/us-robot/catkin_ws/devel/lib 
+Requires: 

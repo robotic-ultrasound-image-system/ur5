@@ -1,0 +1,397 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDITIONAL_INFO	include/ur_modern_driver/robot_state.h	/^	ADDITIONAL_INFO = 8,$/;"	e	enum:package_types::package_type
+CALIBRATION_DATA	include/ur_modern_driver/robot_state.h	/^	CALIBRATION_DATA = 9$/;"	e	enum:package_types::package_type
+CARTESIAN_INFO	include/ur_modern_driver/robot_state.h	/^	CARTESIAN_INFO = 4,$/;"	e	enum:package_types::package_type
+CONFIGURATION_DATA	include/ur_modern_driver/robot_state.h	/^	CONFIGURATION_DATA = 6,$/;"	e	enum:package_types::package_type
+FORCE_MODE_DATA	include/ur_modern_driver/robot_state.h	/^	FORCE_MODE_DATA = 7,$/;"	e	enum:package_types::package_type
+JOINT_DATA	include/ur_modern_driver/robot_state.h	/^	JOINT_DATA = 1,$/;"	e	enum:package_types::package_type
+JOINT_NAMES	test_move.py	/^JOINT_NAMES = ['shoulder_pan_joint', 'shoulder_lift_joint', 'elbow_joint',$/;"	v
+KINEMATICS_INFO	include/ur_modern_driver/robot_state.h	/^	KINEMATICS_INFO = 5,$/;"	e	enum:package_types::package_type
+MASTERBOARD_DATA	include/ur_modern_driver/robot_state.h	/^	MASTERBOARD_DATA = 3,$/;"	e	enum:package_types::package_type
+MULT_JOINTSTATE_	include/ur_modern_driver/ur_driver.h	/^	const int MULT_JOINTSTATE_ = 1000000;$/;"	m	class:UrDriver
+MULT_TIME_	include/ur_modern_driver/ur_driver.h	/^	const int MULT_TIME_ = 1000000;$/;"	m	class:UrDriver
+POSITION_STEP_FACTOR	include/ur_modern_driver/ur_hardware_interface.h	/^static const double POSITION_STEP_FACTOR = 0.3;$/;"	m	namespace:ros_control_ur
+PROGRAM_STATE_MESSAGE	include/ur_modern_driver/robot_state.h	/^	ROBOT_STATE = 16, ROBOT_MESSAGE = 20, PROGRAM_STATE_MESSAGE = 25$/;"	e	enum:message_types::message_type
+PROGRAM_STATE_MESSAGE_VARIABLE_UPDATE	include/ur_modern_driver/robot_state.h	/^	PROGRAM_STATE_MESSAGE_VARIABLE_UPDATE = 2,$/;"	e	enum:robot_message_types::robot_message_type
+Q1	test_move.py	/^Q1 = [2.2,0,-1.57,0,0,0]$/;"	v
+Q2	test_move.py	/^Q2 = [1.5,0,-1.57,0,0,0]$/;"	v
+REVERSE_PORT_	include/ur_modern_driver/ur_driver.h	/^	const unsigned int REVERSE_PORT_;$/;"	m	class:UrDriver
+ROBOT_EMERGENCY_STOPPED_MODE	include/ur_modern_driver/robot_state.h	/^	ROBOT_EMERGENCY_STOPPED_MODE = 5,$/;"	e	enum:robot_state_type_v18::robot_state_type
+ROBOT_FATAL_ERROR_MODE	include/ur_modern_driver/robot_state.h	/^	ROBOT_FATAL_ERROR_MODE = 6,$/;"	e	enum:robot_state_type_v18::robot_state_type
+ROBOT_FREEDRIVE_MODE	include/ur_modern_driver/robot_state.h	/^	ROBOT_FREEDRIVE_MODE = 1,$/;"	e	enum:robot_state_type_v18::robot_state_type
+ROBOT_INITIALIZING_MODE	include/ur_modern_driver/robot_state.h	/^	ROBOT_INITIALIZING_MODE = 3,$/;"	e	enum:robot_state_type_v18::robot_state_type
+ROBOT_MESSAGE	include/ur_modern_driver/robot_state.h	/^	ROBOT_STATE = 16, ROBOT_MESSAGE = 20, PROGRAM_STATE_MESSAGE = 25$/;"	e	enum:message_types::message_type
+ROBOT_MESSAGE_ERROR_CODE	include/ur_modern_driver/robot_state.h	/^	ROBOT_MESSAGE_ERROR_CODE = 6,$/;"	e	enum:robot_message_types::robot_message_type
+ROBOT_MESSAGE_KEY	include/ur_modern_driver/robot_state.h	/^	ROBOT_MESSAGE_KEY = 7,$/;"	e	enum:robot_message_types::robot_message_type
+ROBOT_MESSAGE_PROGRAM_LABEL	include/ur_modern_driver/robot_state.h	/^	ROBOT_MESSAGE_PROGRAM_LABEL = 1,$/;"	e	enum:robot_message_types::robot_message_type
+ROBOT_MESSAGE_REQUEST_VALUE	include/ur_modern_driver/robot_state.h	/^	ROBOT_MESSAGE_REQUEST_VALUE = 9,$/;"	e	enum:robot_message_types::robot_message_type
+ROBOT_MESSAGE_RUNTIME_EXCEPTION	include/ur_modern_driver/robot_state.h	/^	ROBOT_MESSAGE_RUNTIME_EXCEPTION = 10$/;"	e	enum:robot_message_types::robot_message_type
+ROBOT_MESSAGE_SAFETY_MODE	include/ur_modern_driver/robot_state.h	/^	ROBOT_MESSAGE_SAFETY_MODE = 5,$/;"	e	enum:robot_message_types::robot_message_type
+ROBOT_MESSAGE_TEXT	include/ur_modern_driver/robot_state.h	/^	ROBOT_MESSAGE_TEXT = 0,$/;"	e	enum:robot_message_types::robot_message_type
+ROBOT_MESSAGE_VERSION	include/ur_modern_driver/robot_state.h	/^	ROBOT_MESSAGE_VERSION = 3,$/;"	e	enum:robot_message_types::robot_message_type
+ROBOT_MODE_BACKDRIVE	include/ur_modern_driver/robot_state.h	/^	ROBOT_MODE_BACKDRIVE = 6,$/;"	e	enum:robot_state_type_v30::robot_state_type
+ROBOT_MODE_BOOTING	include/ur_modern_driver/robot_state.h	/^	ROBOT_MODE_BOOTING = 2,$/;"	e	enum:robot_state_type_v30::robot_state_type
+ROBOT_MODE_CONFIRM_SAFETY	include/ur_modern_driver/robot_state.h	/^	ROBOT_MODE_CONFIRM_SAFETY = 1,$/;"	e	enum:robot_state_type_v30::robot_state_type
+ROBOT_MODE_DATA	include/ur_modern_driver/robot_state.h	/^	ROBOT_MODE_DATA = 0,$/;"	e	enum:package_types::package_type
+ROBOT_MODE_DISCONNECTED	include/ur_modern_driver/robot_state.h	/^	ROBOT_MODE_DISCONNECTED = 0,$/;"	e	enum:robot_state_type_v30::robot_state_type
+ROBOT_MODE_IDLE	include/ur_modern_driver/robot_state.h	/^	ROBOT_MODE_IDLE = 5,$/;"	e	enum:robot_state_type_v30::robot_state_type
+ROBOT_MODE_POWER_OFF	include/ur_modern_driver/robot_state.h	/^	ROBOT_MODE_POWER_OFF = 3,$/;"	e	enum:robot_state_type_v30::robot_state_type
+ROBOT_MODE_POWER_ON	include/ur_modern_driver/robot_state.h	/^	ROBOT_MODE_POWER_ON = 4,$/;"	e	enum:robot_state_type_v30::robot_state_type
+ROBOT_MODE_RUNNING	include/ur_modern_driver/robot_state.h	/^	ROBOT_MODE_RUNNING = 7,$/;"	e	enum:robot_state_type_v30::robot_state_type
+ROBOT_MODE_UPDATING_FIRMWARE	include/ur_modern_driver/robot_state.h	/^	ROBOT_MODE_UPDATING_FIRMWARE = 8$/;"	e	enum:robot_state_type_v30::robot_state_type
+ROBOT_NOT_CONNECTED_MODE	include/ur_modern_driver/robot_state.h	/^	ROBOT_NOT_CONNECTED_MODE = 8,$/;"	e	enum:robot_state_type_v18::robot_state_type
+ROBOT_NO_POWER_MODE	include/ur_modern_driver/robot_state.h	/^	ROBOT_NO_POWER_MODE = 7,$/;"	e	enum:robot_state_type_v18::robot_state_type
+ROBOT_READY_MODE	include/ur_modern_driver/robot_state.h	/^	ROBOT_READY_MODE = 2,$/;"	e	enum:robot_state_type_v18::robot_state_type
+ROBOT_RUNNING_MODE	include/ur_modern_driver/robot_state.h	/^	ROBOT_RUNNING_MODE = 0,$/;"	e	enum:robot_state_type_v18::robot_state_type
+ROBOT_SAFEGUARD_STOP_MODE	include/ur_modern_driver/robot_state.h	/^	ROBOT_SAFEGUARD_STOP_MODE = 10$/;"	e	enum:robot_state_type_v18::robot_state_type
+ROBOT_SECURITY_STOPPED_MODE	include/ur_modern_driver/robot_state.h	/^	ROBOT_SECURITY_STOPPED_MODE = 4,$/;"	e	enum:robot_state_type_v18::robot_state_type
+ROBOT_SHUTDOWN_MODE	include/ur_modern_driver/robot_state.h	/^	ROBOT_SHUTDOWN_MODE = 9,$/;"	e	enum:robot_state_type_v18::robot_state_type
+ROBOT_STATE	include/ur_modern_driver/robot_state.h	/^	ROBOT_STATE = 16, ROBOT_MESSAGE = 20, PROGRAM_STATE_MESSAGE = 25$/;"	e	enum:message_types::message_type
+ROBOT_STATE_H_	include/ur_modern_driver/robot_state.h	20;"	d
+ROBOT_STATE_RT_H_	include/ur_modern_driver/robot_state_RT.h	2;"	d
+RobotState	include/ur_modern_driver/robot_state.h	/^class RobotState {$/;"	c
+RobotState	src/robot_state.cpp	/^RobotState::RobotState(std::condition_variable& msg_cond) {$/;"	f	class:RobotState
+RobotStateRT	include/ur_modern_driver/robot_state_RT.h	/^class RobotStateRT {$/;"	c
+RobotStateRT	src/robot_state_RT.cpp	/^RobotStateRT::RobotStateRT(std::condition_variable& msg_cond) {$/;"	f	class:RobotStateRT
+RosWrapper	src/ur_ros_wrapper.cpp	/^	RosWrapper(std::string host, int reverse_port) :$/;"	f	class:RosWrapper
+RosWrapper	src/ur_ros_wrapper.cpp	/^class RosWrapper {$/;"	c	file:
+TOOL_DATA	include/ur_modern_driver/robot_state.h	/^	TOOL_DATA = 2,$/;"	e	enum:package_types::package_type
+UR_COMMUNICATION_H_	include/ur_modern_driver/ur_communication.h	20;"	d
+UR_DO_OUTPUT_H_	include/ur_modern_driver/do_output.h	20;"	d
+UR_DRIVER_H_	include/ur_modern_driver/ur_driver.h	20;"	d
+UR_REALTIME_COMMUNICATION_H_	include/ur_modern_driver/ur_realtime_communication.h	20;"	d
+UR_ROS_CONTROL_UR_HARDWARE_INTERFACE_H	include/ur_modern_driver/ur_hardware_interface.h	59;"	d
+UrCommunication	include/ur_modern_driver/ur_communication.h	/^class UrCommunication {$/;"	c
+UrCommunication	src/ur_communication.cpp	/^UrCommunication::UrCommunication(std::condition_variable& msg_cond,$/;"	f	class:UrCommunication
+UrDriver	include/ur_modern_driver/ur_driver.h	/^class UrDriver {$/;"	c
+UrDriver	src/ur_driver.cpp	/^UrDriver::UrDriver(std::condition_variable& rt_msg_cond,$/;"	f	class:UrDriver
+UrHardwareInterface	include/ur_modern_driver/ur_hardware_interface.h	/^class UrHardwareInterface: public hardware_interface::RobotHW {$/;"	c	namespace:ros_control_ur
+UrHardwareInterface	src/ur_hardware_interface.cpp	/^UrHardwareInterface::UrHardwareInterface(ros::NodeHandle& nh, UrDriver* robot) :$/;"	f	class:ros_control_ur::UrHardwareInterface
+UrRealtimeCommunication	include/ur_modern_driver/ur_realtime_communication.h	/^class UrRealtimeCommunication {$/;"	c
+UrRealtimeCommunication	src/ur_realtime_communication.cpp	/^UrRealtimeCommunication::UrRealtimeCommunication($/;"	f	class:UrRealtimeCommunication
+VELOCITY_STEP_FACTOR	include/ur_modern_driver/ur_hardware_interface.h	/^static const double VELOCITY_STEP_FACTOR = 0.3;$/;"	m	namespace:ros_control_ur
+addCommandToQueue	src/ur_realtime_communication.cpp	/^void UrRealtimeCommunication::addCommandToQueue(std::string inp) {$/;"	f	class:UrRealtimeCommunication
+analogInput0	include/ur_modern_driver/robot_state.h	/^	double analogInput0;$/;"	m	struct:masterboard_data
+analogInput1	include/ur_modern_driver/robot_state.h	/^	double analogInput1;$/;"	m	struct:masterboard_data
+analogInputRange0	include/ur_modern_driver/robot_state.h	/^	char analogInputRange0;$/;"	m	struct:masterboard_data
+analogInputRange1	include/ur_modern_driver/robot_state.h	/^	char analogInputRange1;$/;"	m	struct:masterboard_data
+analogOutput0	include/ur_modern_driver/robot_state.h	/^	double analogOutput0;$/;"	m	struct:masterboard_data
+analogOutput1	include/ur_modern_driver/robot_state.h	/^	double analogOutput1;$/;"	m	struct:masterboard_data
+analogOutputDomain0	include/ur_modern_driver/robot_state.h	/^	char analogOutputDomain0;$/;"	m	struct:masterboard_data
+analogOutputDomain1	include/ur_modern_driver/robot_state.h	/^	char analogOutputDomain1;$/;"	m	struct:masterboard_data
+as_	src/ur_ros_wrapper.cpp	/^	actionlib::ActionServer<control_msgs::FollowJointTrajectoryAction> as_;$/;"	m	class:RosWrapper	file:
+base_frame_	src/ur_ros_wrapper.cpp	/^    std::string base_frame_;$/;"	m	class:RosWrapper	file:
+build_date	include/ur_modern_driver/robot_state.h	/^	char build_date[25];$/;"	m	struct:version_message
+canSwitch	src/ur_hardware_interface.cpp	/^bool UrHardwareInterface::canSwitch($/;"	f	class:ros_control_ur::UrHardwareInterface
+cancelCB	src/ur_ros_wrapper.cpp	/^	void cancelCB($/;"	f	class:RosWrapper	file:
+client	test_move.py	/^client = None$/;"	v
+client	testik.py	/^client = None$/;"	v
+client	testtcp.py	/^client = None$/;"	v
+closeServo	src/ur_driver.cpp	/^void UrDriver::closeServo(std::vector<double> positions) {$/;"	f	class:UrDriver
+comThread_	include/ur_modern_driver/ur_communication.h	/^	std::thread comThread_;$/;"	m	class:UrCommunication
+comThread_	include/ur_modern_driver/ur_realtime_communication.h	/^	std::thread comThread_;$/;"	m	class:UrRealtimeCommunication
+command_	include/ur_modern_driver/ur_realtime_communication.h	/^	std::string command_;$/;"	m	class:UrRealtimeCommunication
+command_string_lock_	include/ur_modern_driver/ur_realtime_communication.h	/^	std::recursive_mutex command_string_lock_;$/;"	m	class:UrRealtimeCommunication
+connected_	include/ur_modern_driver/ur_communication.h	/^	bool connected_;$/;"	m	class:UrCommunication
+connected_	include/ur_modern_driver/ur_realtime_communication.h	/^	bool connected_;$/;"	m	class:UrRealtimeCommunication
+controlMode	include/ur_modern_driver/robot_state.h	/^	unsigned char controlMode;$/;"	m	struct:robot_mode_data
+controller_manager_	src/ur_ros_wrapper.cpp	/^	boost::shared_ptr<controller_manager::ControllerManager> controller_manager_;$/;"	m	class:RosWrapper	file:
+controller_timer_	include/ur_modern_driver/robot_state_RT.h	/^	double controller_timer_; \/\/Controller realtime thread execution time$/;"	m	class:RobotStateRT
+controller_updated_	include/ur_modern_driver/robot_state_RT.h	/^	bool controller_updated_; \/\/to avoid spurious wakes$/;"	m	class:RobotStateRT
+data_published_	include/ur_modern_driver/robot_state_RT.h	/^	bool data_published_; \/\/to avoid spurious wakes$/;"	m	class:RobotStateRT
+digitalInputBits	include/ur_modern_driver/robot_state.h	/^	int digitalInputBits;$/;"	m	struct:masterboard_data
+digitalOutputBits	include/ur_modern_driver/robot_state.h	/^	int digitalOutputBits;$/;"	m	struct:masterboard_data
+digital_input_bits_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<bool> digital_input_bits_; \/\/Current state of the digital inputs. NOTE: these are bits encoded as int64_t, e.g. a value of 5 corresponds to bit 0 and bit 2 set high$/;"	m	class:RobotStateRT
+doSwitch	src/ur_hardware_interface.cpp	/^void UrHardwareInterface::doSwitch($/;"	f	class:ros_control_ur::UrHardwareInterface
+doTraj	src/ur_driver.cpp	/^bool UrDriver::doTraj(std::vector<double> inp_timestamps,$/;"	f	class:UrDriver
+euromap67InterfaceInstalled	include/ur_modern_driver/robot_state.h	/^	char euromap67InterfaceInstalled;$/;"	m	struct:masterboard_data
+euromapCurrent	include/ur_modern_driver/robot_state.h	/^	float euromapCurrent;$/;"	m	struct:masterboard_data
+euromapInputBits	include/ur_modern_driver/robot_state.h	/^	int euromapInputBits;$/;"	m	struct:masterboard_data
+euromapOutputBits	include/ur_modern_driver/robot_state.h	/^	int euromapOutputBits;$/;"	m	struct:masterboard_data
+euromapVoltage	include/ur_modern_driver/robot_state.h	/^	float euromapVoltage;$/;"	m	struct:masterboard_data
+executing_traj_	include/ur_modern_driver/ur_driver.h	/^	bool executing_traj_;$/;"	m	class:UrDriver
+feedback_	src/ur_ros_wrapper.cpp	/^	control_msgs::FollowJointTrajectoryFeedback feedback_;$/;"	m	class:RosWrapper	file:
+finishedReading	src/robot_state.cpp	/^void RobotState::finishedReading() {$/;"	f	class:RobotState
+firmware_version_	include/ur_modern_driver/ur_driver.h	/^	double firmware_version_;$/;"	m	class:UrDriver
+flag_	include/ur_modern_driver/ur_communication.h	/^	int flag_;$/;"	m	class:UrCommunication
+flag_	include/ur_modern_driver/ur_realtime_communication.h	/^	int flag_;$/;"	m	class:UrRealtimeCommunication
+force_torque_interface_	include/ur_modern_driver/ur_hardware_interface.h	/^	hardware_interface::ForceTorqueSensorInterface force_torque_interface_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+getAnalogInput0	src/robot_state.cpp	/^double RobotState::getAnalogInput0() {$/;"	f	class:RobotState
+getAnalogInput1	src/robot_state.cpp	/^double RobotState::getAnalogInput1() {$/;"	f	class:RobotState
+getAnalogOutput0	src/robot_state.cpp	/^double RobotState::getAnalogOutput0() {$/;"	f	class:RobotState
+getAnalogOutput1	src/robot_state.cpp	/^double RobotState::getAnalogOutput1() {$/;"	f	class:RobotState
+getControllerTimer	src/robot_state_RT.cpp	/^double RobotStateRT::getControllerTimer() {$/;"	f	class:RobotStateRT
+getControllerUpdated	src/robot_state_RT.cpp	/^bool RobotStateRT::getControllerUpdated() {$/;"	f	class:RobotStateRT
+getDataPublished	src/robot_state_RT.cpp	/^bool RobotStateRT::getDataPublished() {$/;"	f	class:RobotStateRT
+getDigitalInputBits	src/robot_state.cpp	/^int RobotState::getDigitalInputBits() {$/;"	f	class:RobotState
+getDigitalInputBits	src/robot_state_RT.cpp	/^std::vector<bool> RobotStateRT::getDigitalInputBits() {$/;"	f	class:RobotStateRT
+getDigitalOutputBits	src/robot_state.cpp	/^int RobotState::getDigitalOutputBits() {$/;"	f	class:RobotState
+getIActual	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getIActual() {$/;"	f	class:RobotStateRT
+getIControl	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getIControl() {$/;"	f	class:RobotStateRT
+getIRobot	src/robot_state_RT.cpp	/^double RobotStateRT::getIRobot() {$/;"	f	class:RobotStateRT
+getITarget	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getITarget() {$/;"	f	class:RobotStateRT
+getJointModes	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getJointModes() {$/;"	f	class:RobotStateRT
+getJointNames	src/ur_driver.cpp	/^std::vector<std::string> UrDriver::getJointNames() {$/;"	f	class:UrDriver
+getLinearMomentumNorm	src/robot_state_RT.cpp	/^double RobotStateRT::getLinearMomentumNorm() {$/;"	f	class:RobotStateRT
+getLocalIp	src/ur_realtime_communication.cpp	/^std::string UrRealtimeCommunication::getLocalIp() {$/;"	f	class:UrRealtimeCommunication
+getMTarget	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getMTarget() {$/;"	f	class:RobotStateRT
+getMotorTemperatures	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getMotorTemperatures() {$/;"	f	class:RobotStateRT
+getNewDataAvailable	src/robot_state.cpp	/^bool RobotState::getNewDataAvailable() {$/;"	f	class:RobotState
+getQActual	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getQActual() {$/;"	f	class:RobotStateRT
+getQTarget	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getQTarget() {$/;"	f	class:RobotStateRT
+getQdActual	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getQdActual() {$/;"	f	class:RobotStateRT
+getQdTarget	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getQdTarget() {$/;"	f	class:RobotStateRT
+getQddTarget	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getQddTarget() {$/;"	f	class:RobotStateRT
+getRobotMode	src/robot_state.cpp	/^unsigned char RobotState::getRobotMode() {$/;"	f	class:RobotState
+getRobotMode	src/robot_state_RT.cpp	/^double RobotStateRT::getRobotMode() {$/;"	f	class:RobotStateRT
+getSafety_mode	src/robot_state_RT.cpp	/^double RobotStateRT::getSafety_mode() {$/;"	f	class:RobotStateRT
+getSpeedScaling	src/robot_state_RT.cpp	/^double RobotStateRT::getSpeedScaling() {$/;"	f	class:RobotStateRT
+getTcpForce	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getTcpForce() {$/;"	f	class:RobotStateRT
+getTcpSpeedActual	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getTcpSpeedActual() {$/;"	f	class:RobotStateRT
+getTcpSpeedTarget	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getTcpSpeedTarget() {$/;"	f	class:RobotStateRT
+getTime	src/robot_state_RT.cpp	/^double RobotStateRT::getTime() {$/;"	f	class:RobotStateRT
+getToolAccelerometerValues	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getToolAccelerometerValues() {$/;"	f	class:RobotStateRT
+getToolVectorActual	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getToolVectorActual() {$/;"	f	class:RobotStateRT
+getToolVectorTarget	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getToolVectorTarget() {$/;"	f	class:RobotStateRT
+getVActual	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::getVActual() {$/;"	f	class:RobotStateRT
+getVMain	src/robot_state_RT.cpp	/^double RobotStateRT::getVMain() {$/;"	f	class:RobotStateRT
+getVRobot	src/robot_state_RT.cpp	/^double RobotStateRT::getVRobot() {$/;"	f	class:RobotStateRT
+getVersion	src/robot_state.cpp	/^double RobotState::getVersion() {$/;"	f	class:RobotState
+getVersion	src/robot_state_RT.cpp	/^double RobotStateRT::getVersion() {$/;"	f	class:RobotStateRT
+goalCB	src/ur_ros_wrapper.cpp	/^	void goalCB($/;"	f	class:RosWrapper	file:
+goal_handle_	src/ur_ros_wrapper.cpp	/^	actionlib::ServerGoalHandle<control_msgs::FollowJointTrajectoryAction> goal_handle_;$/;"	m	class:RosWrapper	file:
+halt	src/ur_communication.cpp	/^void UrCommunication::halt() {$/;"	f	class:UrCommunication
+halt	src/ur_driver.cpp	/^void UrDriver::halt() {$/;"	f	class:UrDriver
+halt	src/ur_realtime_communication.cpp	/^void UrRealtimeCommunication::halt() {$/;"	f	class:UrRealtimeCommunication
+halt	src/ur_ros_wrapper.cpp	/^	void halt() {$/;"	f	class:RosWrapper
+hardware_interface_	src/ur_ros_wrapper.cpp	/^	boost::shared_ptr<ros_control_ur::UrHardwareInterface> hardware_interface_;$/;"	m	class:RosWrapper	file:
+has_goal_	src/ur_ros_wrapper.cpp	/^	bool has_goal_;$/;"	m	class:RosWrapper	file:
+has_limited_velocities	src/ur_ros_wrapper.cpp	/^	bool has_limited_velocities() {$/;"	f	class:RosWrapper	file:
+has_positions	src/ur_ros_wrapper.cpp	/^	bool has_positions() {$/;"	f	class:RosWrapper	file:
+has_velocities	src/ur_ros_wrapper.cpp	/^	bool has_velocities() {$/;"	f	class:RosWrapper	file:
+i_actual_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> i_actual_; \/\/Actual joint currents$/;"	m	class:RobotStateRT
+i_control_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> i_control_; \/\/Joint control currents$/;"	m	class:RobotStateRT
+i_robot_	include/ur_modern_driver/robot_state_RT.h	/^	double i_robot_; \/\/Masterboard: Robot current$/;"	m	class:RobotStateRT
+i_target_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> i_target_; \/\/Target joint currents$/;"	m	class:RobotStateRT
+incoming_sockfd_	include/ur_modern_driver/ur_driver.h	/^	int incoming_sockfd_;$/;"	m	class:UrDriver
+init	src/ur_hardware_interface.cpp	/^void UrHardwareInterface::init() {$/;"	f	class:ros_control_ur::UrHardwareInterface
+interp_cubic	src/ur_driver.cpp	/^std::vector<double> UrDriver::interp_cubic(double t, double T,$/;"	f	class:UrDriver
+io_flag_delay_	src/ur_ros_wrapper.cpp	/^	double io_flag_delay_;$/;"	m	class:RosWrapper	file:
+io_srv_	src/ur_ros_wrapper.cpp	/^	ros::ServiceServer io_srv_;$/;"	m	class:RosWrapper	file:
+ip_addr_	include/ur_modern_driver/ur_driver.h	/^	std::string ip_addr_;$/;"	m	class:UrDriver
+isEmergencyStopped	include/ur_modern_driver/robot_state.h	/^	bool isEmergencyStopped;$/;"	m	struct:robot_mode_data
+isEmergencyStopped	src/robot_state.cpp	/^bool RobotState::isEmergencyStopped() {$/;"	f	class:RobotState
+isPowerOnRobot	include/ur_modern_driver/robot_state.h	/^	bool isPowerOnRobot;$/;"	m	struct:robot_mode_data
+isPowerOnRobot	src/robot_state.cpp	/^bool RobotState::isPowerOnRobot() {$/;"	f	class:RobotState
+isProgramPaused	include/ur_modern_driver/robot_state.h	/^	bool isProgramPaused;$/;"	m	struct:robot_mode_data
+isProgramPaused	src/robot_state.cpp	/^bool RobotState::isProgramPaused() {$/;"	f	class:RobotState
+isProgramRunning	include/ur_modern_driver/robot_state.h	/^	bool isProgramRunning;$/;"	m	struct:robot_mode_data
+isProgramRunning	src/robot_state.cpp	/^bool RobotState::isProgramRunning() {$/;"	f	class:RobotState
+isProtectiveStopped	include/ur_modern_driver/robot_state.h	/^	bool isProtectiveStopped;$/;"	m	struct:robot_mode_data
+isProtectiveStopped	src/robot_state.cpp	/^bool RobotState::isProtectiveStopped() {$/;"	f	class:RobotState
+isReady	src/robot_state.cpp	/^bool RobotState::isReady() {$/;"	f	class:RobotState
+isRealRobotEnabled	include/ur_modern_driver/robot_state.h	/^	bool isRealRobotEnabled;$/;"	m	struct:robot_mode_data
+isRealRobotEnabled	src/robot_state.cpp	/^bool RobotState::isRealRobotEnabled() {$/;"	f	class:RobotState
+isRobotConnected	include/ur_modern_driver/robot_state.h	/^	bool isRobotConnected;$/;"	m	struct:robot_mode_data
+isRobotConnected	src/robot_state.cpp	/^bool RobotState::isRobotConnected() {$/;"	f	class:RobotState
+joint_effort_	include/ur_modern_driver/ur_hardware_interface.h	/^	std::vector<double> joint_effort_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+joint_modes_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> joint_modes_; \/\/Joint control modes$/;"	m	class:RobotStateRT
+joint_names_	include/ur_modern_driver/ur_driver.h	/^	std::vector<std::string> joint_names_;$/;"	m	class:UrDriver
+joint_names_	include/ur_modern_driver/ur_hardware_interface.h	/^	std::vector<std::string> joint_names_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+joint_offsets_	src/ur_ros_wrapper.cpp	/^	std::vector<double> joint_offsets_;$/;"	m	class:RosWrapper	file:
+joint_position_	include/ur_modern_driver/ur_hardware_interface.h	/^	std::vector<double> joint_position_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+joint_position_command_	include/ur_modern_driver/ur_hardware_interface.h	/^	std::vector<double> joint_position_command_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+joint_state_interface_	include/ur_modern_driver/ur_hardware_interface.h	/^	hardware_interface::JointStateInterface joint_state_interface_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+joint_velocity_	include/ur_modern_driver/ur_hardware_interface.h	/^	std::vector<double> joint_velocity_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+joint_velocity_command_	include/ur_modern_driver/ur_hardware_interface.h	/^	std::vector<double> joint_velocity_command_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+keepalive_	include/ur_modern_driver/ur_communication.h	/^	bool keepalive_;$/;"	m	class:UrCommunication
+keepalive_	include/ur_modern_driver/ur_realtime_communication.h	/^	bool keepalive_;$/;"	m	class:UrRealtimeCommunication
+linear_momentum_norm_	include/ur_modern_driver/robot_state_RT.h	/^	double linear_momentum_norm_; \/\/Norm of Cartesian linear momentum$/;"	m	class:RobotStateRT
+local_ip_	include/ur_modern_driver/ur_realtime_communication.h	/^	std::string local_ip_;$/;"	m	class:UrRealtimeCommunication
+m_target_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> m_target_; \/\/Target joint moments (torques)$/;"	m	class:RobotStateRT
+main	src/ur_ros_wrapper.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	test_move.py	/^def main():$/;"	f
+main	testik.py	/^def main():$/;"	f
+main	testtcp.py	/^def main():$/;"	f
+major_version	include/ur_modern_driver/robot_state.h	/^	uint8_t major_version;$/;"	m	struct:version_message
+masterBoardTemperature	include/ur_modern_driver/robot_state.h	/^	float masterBoardTemperature;$/;"	m	struct:masterboard_data
+masterIOCurrent	include/ur_modern_driver/robot_state.h	/^	float masterIOCurrent;$/;"	m	struct:masterboard_data
+masterOnOffState	include/ur_modern_driver/robot_state.h	/^	unsigned char masterOnOffState;$/;"	m	struct:masterboard_data
+masterboard_data	include/ur_modern_driver/robot_state.h	/^struct masterboard_data {$/;"	s
+max_vel_change_	include/ur_modern_driver/ur_hardware_interface.h	/^	double max_vel_change_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+max_velocity_	src/ur_ros_wrapper.cpp	/^	double max_velocity_;$/;"	m	class:RosWrapper	file:
+maximum_payload_	include/ur_modern_driver/ur_driver.h	/^	double maximum_payload_;$/;"	m	class:UrDriver
+maximum_time_step_	include/ur_modern_driver/ur_driver.h	/^	double maximum_time_step_;$/;"	m	class:UrDriver
+mb_data_	include/ur_modern_driver/robot_state.h	/^	masterboard_data mb_data_;$/;"	m	class:RobotState
+mb_publish_thread_	src/ur_ros_wrapper.cpp	/^	std::thread* mb_publish_thread_;$/;"	m	class:RosWrapper	file:
+messageType	include/ur_modern_driver/robot_state.h	/^typedef message_types::message_type messageType;$/;"	t
+message_type	include/ur_modern_driver/robot_state.h	/^enum message_type {$/;"	g	namespace:message_types
+message_types	include/ur_modern_driver/robot_state.h	/^namespace message_types {$/;"	n
+minimum_payload_	include/ur_modern_driver/ur_driver.h	/^	double minimum_payload_;$/;"	m	class:UrDriver
+minor_version	include/ur_modern_driver/robot_state.h	/^	uint8_t minor_version;$/;"	m	struct:version_message
+motor_temperatures_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> motor_temperatures_; \/\/Temperature of each joint in degrees celsius$/;"	m	class:RobotStateRT
+move_group_python_interface_tutorial	tsetpy.py	/^def move_group_python_interface_tutorial():$/;"	f
+move_joint	testik.py	/^def move_joint():$/;"	f
+move_joint	testtcp.py	/^def move_joint():$/;"	f
+move_repeated	test_move.py	/^def move_repeated():$/;"	f
+msg_cond_	src/ur_ros_wrapper.cpp	/^	std::condition_variable msg_cond_;$/;"	m	class:RosWrapper	file:
+new_data_available_	include/ur_modern_driver/robot_state.h	/^	bool new_data_available_; \/\/to avoid spurious wakes$/;"	m	class:RobotState
+new_sockfd_	include/ur_modern_driver/ur_driver.h	/^	int new_sockfd_;$/;"	m	class:UrDriver
+nh_	include/ur_modern_driver/ur_hardware_interface.h	/^	ros::NodeHandle nh_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+nh_	src/ur_ros_wrapper.cpp	/^	ros::NodeHandle nh_;$/;"	m	class:RosWrapper	file:
+ntohd	src/robot_state.cpp	/^double RobotState::ntohd(uint64_t nf) {$/;"	f	class:RobotState
+ntohd	src/robot_state_RT.cpp	/^double RobotStateRT::ntohd(uint64_t nf) {$/;"	f	class:RobotStateRT
+num_joints_	include/ur_modern_driver/ur_hardware_interface.h	/^		std::size_t num_joints_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+openServo	src/ur_driver.cpp	/^bool UrDriver::openServo() {$/;"	f	class:UrDriver
+pMsg_cond_	include/ur_modern_driver/robot_state.h	/^	std::condition_variable* pMsg_cond_; \/\/Signals that new vars are available$/;"	m	class:RobotState
+pMsg_cond_	include/ur_modern_driver/robot_state_RT.h	/^	std::condition_variable* pMsg_cond_; \/\/Signals that new vars are available$/;"	m	class:RobotStateRT
+packageType	include/ur_modern_driver/robot_state.h	/^typedef package_types::package_type packageType;$/;"	t
+package_type	include/ur_modern_driver/robot_state.h	/^enum package_type {$/;"	g	namespace:package_types
+package_types	include/ur_modern_driver/robot_state.h	/^namespace package_types {$/;"	n
+payload_srv_	src/ur_ros_wrapper.cpp	/^	ros::ServiceServer payload_srv_;$/;"	m	class:RosWrapper	file:
+position_interface_running_	include/ur_modern_driver/ur_hardware_interface.h	/^	bool position_interface_running_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+position_joint_interface_	include/ur_modern_driver/ur_hardware_interface.h	/^	hardware_interface::PositionJointInterface position_joint_interface_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+prev_joint_velocity_command_	include/ur_modern_driver/ur_hardware_interface.h	/^	std::vector<double> prev_joint_velocity_command_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+pri_serv_addr_	include/ur_modern_driver/ur_communication.h	/^	struct sockaddr_in pri_serv_addr_, sec_serv_addr_;$/;"	m	class:UrCommunication	typeref:struct:UrCommunication::sockaddr_in
+pri_sockfd_	include/ur_modern_driver/ur_communication.h	/^	int pri_sockfd_, sec_sockfd_;$/;"	m	class:UrCommunication
+print_debug	src/do_output.cpp	/^void print_debug(std::string inp) {$/;"	f
+print_error	src/do_output.cpp	/^void print_error(std::string inp) {$/;"	f
+print_fatal	src/do_output.cpp	/^void print_fatal(std::string inp) {$/;"	f
+print_info	src/do_output.cpp	/^void print_info(std::string inp) {$/;"	f
+print_warning	src/do_output.cpp	/^void print_warning(std::string inp) {$/;"	f
+project_name	include/ur_modern_driver/robot_state.h	/^	char project_name[15];$/;"	m	struct:version_message
+project_name_size	include/ur_modern_driver/robot_state.h	/^	int8_t project_name_size;$/;"	m	struct:version_message
+publishMbMsg	src/ur_ros_wrapper.cpp	/^	void publishMbMsg() {$/;"	f	class:RosWrapper	file:
+publishRTMsg	src/ur_ros_wrapper.cpp	/^	void publishRTMsg() {$/;"	f	class:RosWrapper	file:
+q_actual_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> q_actual_; \/\/Actual joint positions$/;"	m	class:RobotStateRT
+q_target_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> q_target_; \/\/Target joint positions$/;"	m	class:RobotStateRT
+qd_actual_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> qd_actual_; \/\/Actual joint velocities$/;"	m	class:RobotStateRT
+qd_target_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> qd_target_; \/\/Target joint velocities$/;"	m	class:RobotStateRT
+qdd_target_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> qdd_target_; \/\/Target joint accelerations$/;"	m	class:RobotStateRT
+read	src/ur_hardware_interface.cpp	/^void UrHardwareInterface::read() {$/;"	f	class:ros_control_ur::UrHardwareInterface
+reorder_traj_joints	src/ur_ros_wrapper.cpp	/^	void reorder_traj_joints(trajectory_msgs::JointTrajectory& traj) {$/;"	f	class:RosWrapper	file:
+result_	src/ur_ros_wrapper.cpp	/^	control_msgs::FollowJointTrajectoryResult result_;$/;"	m	class:RosWrapper	file:
+reverse_connected_	include/ur_modern_driver/ur_driver.h	/^	bool reverse_connected_;$/;"	m	class:UrDriver
+robotCurrent	include/ur_modern_driver/robot_state.h	/^	float robotCurrent;$/;"	m	struct:masterboard_data
+robotMessageType	include/ur_modern_driver/robot_state.h	/^typedef robot_message_types::robot_message_type robotMessageType;$/;"	t
+robotMode	include/ur_modern_driver/robot_state.h	/^	unsigned char robotMode;$/;"	m	struct:robot_mode_data
+robotStateTypeV18	include/ur_modern_driver/robot_state.h	/^typedef robot_state_type_v18::robot_state_type robotStateTypeV18;$/;"	t
+robotStateTypeV30	include/ur_modern_driver/robot_state.h	/^typedef robot_state_type_v30::robot_state_type robotStateTypeV30;$/;"	t
+robotVoltage48V	include/ur_modern_driver/robot_state.h	/^	float robotVoltage48V;$/;"	m	struct:masterboard_data
+robot_	include/ur_modern_driver/ur_hardware_interface.h	/^	UrDriver* robot_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+robot_	src/ur_ros_wrapper.cpp	/^	UrDriver robot_;$/;"	m	class:RosWrapper	file:
+robot_force_	include/ur_modern_driver/ur_hardware_interface.h	/^	double robot_force_[3] = { 0., 0., 0. };$/;"	m	class:ros_control_ur::UrHardwareInterface
+robot_message_type	include/ur_modern_driver/robot_state.h	/^	int8_t robot_message_type;$/;"	m	struct:version_message
+robot_message_type	include/ur_modern_driver/robot_state.h	/^enum robot_message_type {$/;"	g	namespace:robot_message_types
+robot_message_types	include/ur_modern_driver/robot_state.h	/^namespace robot_message_types {$/;"	n
+robot_mode_	include/ur_modern_driver/robot_state.h	/^	robot_mode_data robot_mode_;$/;"	m	class:RobotState
+robot_mode_	include/ur_modern_driver/robot_state_RT.h	/^	double robot_mode_; \/\/Robot mode$/;"	m	class:RobotStateRT
+robot_mode_data	include/ur_modern_driver/robot_state.h	/^struct robot_mode_data {$/;"	s
+robot_mode_running_	include/ur_modern_driver/robot_state.h	/^	unsigned char robot_mode_running_;$/;"	m	class:RobotState
+robot_state_	include/ur_modern_driver/ur_communication.h	/^	RobotState* robot_state_;$/;"	m	class:UrCommunication
+robot_state_	include/ur_modern_driver/ur_realtime_communication.h	/^	RobotStateRT* robot_state_;$/;"	m	class:UrRealtimeCommunication
+robot_state_type	include/ur_modern_driver/robot_state.h	/^enum robot_state_type {$/;"	g	namespace:robot_state_type_v18
+robot_state_type	include/ur_modern_driver/robot_state.h	/^enum robot_state_type {$/;"	g	namespace:robot_state_type_v30
+robot_state_type_v18	include/ur_modern_driver/robot_state.h	/^namespace robot_state_type_v18 {$/;"	n
+robot_state_type_v30	include/ur_modern_driver/robot_state.h	/^namespace robot_state_type_v30 {$/;"	n
+robot_torque_	include/ur_modern_driver/ur_hardware_interface.h	/^	double robot_torque_[3] = { 0., 0., 0. };$/;"	m	class:ros_control_ur::UrHardwareInterface
+rosControlLoop	src/ur_ros_wrapper.cpp	/^	void rosControlLoop() {$/;"	f	class:RosWrapper	file:
+ros_control_thread_	src/ur_ros_wrapper.cpp	/^	std::thread* ros_control_thread_;$/;"	m	class:RosWrapper	file:
+ros_control_ur	include/ur_modern_driver/ur_hardware_interface.h	/^namespace ros_control_ur {$/;"	n
+ros_control_ur	src/ur_hardware_interface.cpp	/^namespace ros_control_ur {$/;"	n	file:
+rt_interface_	include/ur_modern_driver/ur_driver.h	/^	UrRealtimeCommunication* rt_interface_;$/;"	m	class:UrDriver
+rt_msg_cond_	src/ur_ros_wrapper.cpp	/^	std::condition_variable rt_msg_cond_;$/;"	m	class:RosWrapper	file:
+rt_publish_thread_	src/ur_ros_wrapper.cpp	/^	std::thread* rt_publish_thread_;$/;"	m	class:RosWrapper	file:
+run	src/ur_communication.cpp	/^void UrCommunication::run() {$/;"	f	class:UrCommunication
+run	src/ur_realtime_communication.cpp	/^void UrRealtimeCommunication::run() {$/;"	f	class:UrRealtimeCommunication
+safetyMode	include/ur_modern_driver/robot_state.h	/^	unsigned char safetyMode;$/;"	m	struct:masterboard_data
+safety_count_	include/ur_modern_driver/ur_realtime_communication.h	/^	unsigned int safety_count_;$/;"	m	class:UrRealtimeCommunication
+safety_count_max_	include/ur_modern_driver/ur_realtime_communication.h	/^	unsigned int safety_count_max_;$/;"	m	class:UrRealtimeCommunication
+safety_mode_	include/ur_modern_driver/robot_state_RT.h	/^	double safety_mode_; \/\/Safety mode$/;"	m	class:RobotStateRT
+sec_interface_	include/ur_modern_driver/ur_driver.h	/^	UrCommunication* sec_interface_;$/;"	m	class:UrDriver
+sec_serv_addr_	include/ur_modern_driver/ur_communication.h	/^	struct sockaddr_in pri_serv_addr_, sec_serv_addr_;$/;"	m	class:UrCommunication	typeref:struct:UrCommunication::
+sec_sockfd_	include/ur_modern_driver/ur_communication.h	/^	int pri_sockfd_, sec_sockfd_;$/;"	m	class:UrCommunication
+serv_addr_	include/ur_modern_driver/ur_realtime_communication.h	/^	struct sockaddr_in serv_addr_;$/;"	m	class:UrRealtimeCommunication	typeref:struct:UrRealtimeCommunication::sockaddr_in
+server_	include/ur_modern_driver/ur_communication.h	/^	struct hostent *server_;$/;"	m	class:UrCommunication	typeref:struct:UrCommunication::hostent
+server_	include/ur_modern_driver/ur_realtime_communication.h	/^	struct hostent *server_;$/;"	m	class:UrRealtimeCommunication	typeref:struct:UrRealtimeCommunication::hostent
+servoj	src/ur_driver.cpp	/^void UrDriver::servoj(std::vector<double> positions, int keepalive) {$/;"	f	class:UrDriver
+servoj_gain_	include/ur_modern_driver/ur_driver.h	/^	double servoj_gain_;$/;"	m	class:UrDriver
+servoj_lookahead_time_	include/ur_modern_driver/ur_driver.h	/^	double servoj_lookahead_time_;$/;"	m	class:UrDriver
+servoj_time_	include/ur_modern_driver/ur_driver.h	/^	double servoj_time_;$/;"	m	class:UrDriver
+setAnalogOut	src/ur_driver.cpp	/^void UrDriver::setAnalogOut(unsigned int n, double f) {$/;"	f	class:UrDriver
+setControllerUpdated	src/robot_state_RT.cpp	/^void RobotStateRT::setControllerUpdated() {$/;"	f	class:RobotStateRT
+setDataPublished	src/robot_state_RT.cpp	/^void RobotStateRT::setDataPublished() {$/;"	f	class:RobotStateRT
+setDigitalOut	src/ur_driver.cpp	/^void UrDriver::setDigitalOut(unsigned int n, bool b) {$/;"	f	class:UrDriver
+setDisconnected	src/robot_state.cpp	/^void RobotState::setDisconnected() {$/;"	f	class:RobotState
+setFlag	src/ur_driver.cpp	/^void UrDriver::setFlag(unsigned int n, bool b) {$/;"	f	class:UrDriver
+setIO	src/ur_ros_wrapper.cpp	/^	bool setIO(ur_msgs::SetIORequest& req, ur_msgs::SetIOResponse& resp) {$/;"	f	class:RosWrapper	file:
+setJointNames	src/ur_driver.cpp	/^void UrDriver::setJointNames(std::vector<std::string> jn) {$/;"	f	class:UrDriver
+setMaxPayload	src/ur_driver.cpp	/^void UrDriver::setMaxPayload(double m) {$/;"	f	class:UrDriver
+setMaxVelChange	src/ur_hardware_interface.cpp	/^void UrHardwareInterface::setMaxVelChange(double inp) {$/;"	f	class:ros_control_ur::UrHardwareInterface
+setMinPayload	src/ur_driver.cpp	/^void UrDriver::setMinPayload(double m) {$/;"	f	class:UrDriver
+setPayload	src/ur_driver.cpp	/^bool UrDriver::setPayload(double m) {$/;"	f	class:UrDriver
+setPayload	src/ur_ros_wrapper.cpp	/^	bool setPayload(ur_msgs::SetPayloadRequest& req,$/;"	f	class:RosWrapper	file:
+setSafetyCountMax	src/ur_realtime_communication.cpp	/^void UrRealtimeCommunication::setSafetyCountMax(uint inp) {$/;"	f	class:UrRealtimeCommunication
+setServojGain	src/ur_driver.cpp	/^void UrDriver::setServojGain(double g){$/;"	f	class:UrDriver
+setServojLookahead	src/ur_driver.cpp	/^void UrDriver::setServojLookahead(double t){$/;"	f	class:UrDriver
+setServojTime	src/ur_driver.cpp	/^void UrDriver::setServojTime(double t) {$/;"	f	class:UrDriver
+setSpeed	src/ur_driver.cpp	/^void UrDriver::setSpeed(double q0, double q1, double q2, double q3, double q4,$/;"	f	class:UrDriver
+setSpeed	src/ur_realtime_communication.cpp	/^void UrRealtimeCommunication::setSpeed(double q0, double q1, double q2,$/;"	f	class:UrRealtimeCommunication
+setToolVoltage	src/ur_driver.cpp	/^void UrDriver::setToolVoltage(unsigned int v) {$/;"	f	class:UrDriver
+setVersion	src/robot_state_RT.cpp	/^void RobotStateRT::setVersion(double ver) {$/;"	f	class:RobotStateRT
+sockfd_	include/ur_modern_driver/ur_realtime_communication.h	/^	int sockfd_;$/;"	m	class:UrRealtimeCommunication
+source	include/ur_modern_driver/robot_state.h	/^	int8_t source;$/;"	m	struct:version_message
+speedInterface	src/ur_ros_wrapper.cpp	/^	void speedInterface(const trajectory_msgs::JointTrajectory::Ptr& msg) {$/;"	f	class:RosWrapper	file:
+speedScaling	include/ur_modern_driver/robot_state.h	/^	double speedScaling;$/;"	m	struct:robot_mode_data
+speed_scaling_	include/ur_modern_driver/robot_state_RT.h	/^	double speed_scaling_; \/\/Speed scaling of the trajectory limiter$/;"	m	class:RobotStateRT
+speed_sub_	src/ur_ros_wrapper.cpp	/^	ros::Subscriber speed_sub_;$/;"	m	class:RosWrapper	file:
+start	src/ur_communication.cpp	/^bool UrCommunication::start() {$/;"	f	class:UrCommunication
+start	src/ur_driver.cpp	/^bool UrDriver::start() {$/;"	f	class:UrDriver
+start	src/ur_realtime_communication.cpp	/^bool UrRealtimeCommunication::start() {$/;"	f	class:UrRealtimeCommunication
+start_positions_match	src/ur_ros_wrapper.cpp	/^	bool start_positions_match(const trajectory_msgs::JointTrajectory &traj, double eps)$/;"	f	class:RosWrapper	file:
+stopTraj	src/ur_driver.cpp	/^void UrDriver::stopTraj() {$/;"	f	class:UrDriver
+svn_revision	include/ur_modern_driver/robot_state.h	/^	int svn_revision;$/;"	m	struct:version_message
+targetSpeedFraction	include/ur_modern_driver/robot_state.h	/^	double targetSpeedFraction;$/;"	m	struct:robot_mode_data
+tcp_force_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> tcp_force_; \/\/Generalised forces in the TC$/;"	m	class:RobotStateRT
+tcp_speed_actual_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> tcp_speed_actual_; \/\/Actual speed of the tool given in Cartesian coordinates$/;"	m	class:RobotStateRT
+tcp_speed_target_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> tcp_speed_target_; \/\/Target speed of the tool given in Cartesian coordinates$/;"	m	class:RobotStateRT
+time_	include/ur_modern_driver/robot_state_RT.h	/^	double time_; \/\/Time elapsed since the controller was started$/;"	m	class:RobotStateRT
+timestamp	include/ur_modern_driver/robot_state.h	/^	uint64_t timestamp;$/;"	m	struct:robot_mode_data
+timestamp	include/ur_modern_driver/robot_state.h	/^	uint64_t timestamp;$/;"	m	struct:version_message
+tool_accelerometer_values_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> tool_accelerometer_values_; \/\/Tool x,y and z accelerometer values (software version 1.7)$/;"	m	class:RobotStateRT
+tool_frame_	src/ur_ros_wrapper.cpp	/^    std::string tool_frame_;$/;"	m	class:RosWrapper	file:
+tool_vector_actual_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> tool_vector_actual_; \/\/Actual Cartesian coordinates of the tool: (x,y,z,rx,ry,rz), where rx, ry and rz is a rotation vector representation of the tool orientation$/;"	m	class:RobotStateRT
+tool_vector_target_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> tool_vector_target_; \/\/Target Cartesian coordinates of the tool: (x,y,z,rx,ry,rz), where rx, ry and rz is a rotation vector representation of the tool orientation$/;"	m	class:RobotStateRT
+trajThread	src/ur_ros_wrapper.cpp	/^	void trajThread(std::vector<double> timestamps,$/;"	f	class:RosWrapper	file:
+traj_is_finite	src/ur_ros_wrapper.cpp	/^	bool traj_is_finite() {$/;"	f	class:RosWrapper	file:
+unpack	src/robot_state.cpp	/^void RobotState::unpack(uint8_t* buf, unsigned int buf_length) {$/;"	f	class:RobotState
+unpack	src/robot_state_RT.cpp	/^void RobotStateRT::unpack(uint8_t * buf) {$/;"	f	class:RobotStateRT
+unpackDigitalInputBits	src/robot_state_RT.cpp	/^std::vector<bool> RobotStateRT::unpackDigitalInputBits(int64_t data) {$/;"	f	class:RobotStateRT
+unpackRobotMessage	src/robot_state.cpp	/^void RobotState::unpackRobotMessage(uint8_t * buf, unsigned int offset,$/;"	f	class:RobotState
+unpackRobotMessageVersion	src/robot_state.cpp	/^void RobotState::unpackRobotMessageVersion(uint8_t * buf, unsigned int offset,$/;"	f	class:RobotState
+unpackRobotMode	src/robot_state.cpp	/^void RobotState::unpackRobotMode(uint8_t * buf, unsigned int offset) {$/;"	f	class:RobotState
+unpackRobotState	src/robot_state.cpp	/^void RobotState::unpackRobotState(uint8_t * buf, unsigned int offset,$/;"	f	class:RobotState
+unpackRobotStateMasterboard	src/robot_state.cpp	/^void RobotState::unpackRobotStateMasterboard(uint8_t * buf,$/;"	f	class:RobotState
+unpackVector	src/robot_state_RT.cpp	/^std::vector<double> RobotStateRT::unpackVector(uint8_t * buf, int start_index,$/;"	f	class:RobotStateRT
+uploadProg	src/ur_driver.cpp	/^bool UrDriver::uploadProg() {$/;"	f	class:UrDriver
+urscriptInterface	src/ur_ros_wrapper.cpp	/^	void urscriptInterface(const std_msgs::String::ConstPtr& msg) {$/;"	f	class:RosWrapper	file:
+urscript_sub_	src/ur_ros_wrapper.cpp	/^	ros::Subscriber urscript_sub_;$/;"	m	class:RosWrapper	file:
+use_ros_control_	src/ur_ros_wrapper.cpp	/^	bool use_ros_control_;$/;"	m	class:RosWrapper	file:
+v_actual_	include/ur_modern_driver/robot_state_RT.h	/^	std::vector<double> v_actual_; \/\/Actual joint voltages$/;"	m	class:RobotStateRT
+v_main_	include/ur_modern_driver/robot_state_RT.h	/^	double v_main_; \/\/Masterboard: Main voltage$/;"	m	class:RobotStateRT
+v_robot_	include/ur_modern_driver/robot_state_RT.h	/^	double v_robot_; \/\/Matorborad: Robot voltage (48V)$/;"	m	class:RobotStateRT
+val_lock_	include/ur_modern_driver/robot_state.h	/^	std::recursive_mutex val_lock_; \/\/ Locks the variables while unpack parses data;$/;"	m	class:RobotState
+val_lock_	include/ur_modern_driver/robot_state_RT.h	/^	std::mutex val_lock_; \/\/ Locks the variables while unpack parses data;$/;"	m	class:RobotStateRT
+validateJointNames	src/ur_ros_wrapper.cpp	/^	bool validateJointNames() {$/;"	f	class:RosWrapper	file:
+velocity_interface_running_	include/ur_modern_driver/ur_hardware_interface.h	/^	bool velocity_interface_running_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+velocity_joint_interface_	include/ur_modern_driver/ur_hardware_interface.h	/^	hardware_interface::VelocityJointInterface velocity_joint_interface_;$/;"	m	class:ros_control_ur::UrHardwareInterface
+version_	include/ur_modern_driver/robot_state_RT.h	/^	double version_; \/\/protocol version$/;"	m	class:RobotStateRT
+version_message	include/ur_modern_driver/robot_state.h	/^struct version_message {$/;"	s
+version_msg_	include/ur_modern_driver/robot_state.h	/^	version_message version_msg_;$/;"	m	class:RobotState
+write	src/ur_hardware_interface.cpp	/^void UrHardwareInterface::write() {$/;"	f	class:ros_control_ur::UrHardwareInterface
+~RobotStateRT	src/robot_state_RT.cpp	/^RobotStateRT::~RobotStateRT() {$/;"	f	class:RobotStateRT

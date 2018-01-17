@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/install
+
+Name: ar_track_alvar_msgs
+Description: Description of ar_track_alvar_msgs
+Version: 0.7.1
+Cflags: -I/home/us-robot/catkin_ws/install/include
+Libs: -L/home/us-robot/catkin_ws/install/lib 
+Requires: message_runtime std_msgs geometry_msgs

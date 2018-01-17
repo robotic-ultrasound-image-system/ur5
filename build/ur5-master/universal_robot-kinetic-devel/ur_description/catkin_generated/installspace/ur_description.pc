@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/install
+
+Name: ur_description
+Description: Description of ur_description
+Version: 1.2.0
+Cflags: 
+Libs: -L/home/us-robot/catkin_ws/install/lib 
+Requires: 

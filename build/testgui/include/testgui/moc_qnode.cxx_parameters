@@ -1,0 +1,17 @@
+-I/opt/ros/kinetic/include
+-I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-I/usr/include
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-I/home/us-robot/catkin_ws/build/testgui
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="testgui"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-DQT_NO_KEYWORDS
+-o
+/home/us-robot/catkin_ws/build/testgui/include/testgui/moc_qnode.cxx
+/home/us-robot/catkin_ws/src/testgui/include/testgui/qnode.hpp

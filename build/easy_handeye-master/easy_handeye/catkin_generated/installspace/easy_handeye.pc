@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/install
+
+Name: easy_handeye
+Description: Description of easy_handeye
+Version: 0.2.0
+Cflags: -I/home/us-robot/catkin_ws/install/include
+Libs: -L/home/us-robot/catkin_ws/install/lib 
+Requires: message_runtime geometry_msgs visp_hand2eye_calibration std_msgs geometry_msgs

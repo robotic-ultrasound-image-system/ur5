@@ -1,0 +1,6 @@
+set(moveit_commander_SETUP_PY_VERSION "0.9.9")
+set(moveit_commander_SETUP_PY_SCRIPTS "")
+set(moveit_commander_SETUP_PY_PACKAGES "moveit_commander")
+set(moveit_commander_SETUP_PY_PACKAGE_DIRS "src/moveit_commander")
+set(moveit_commander_SETUP_PY_MODULES "")
+set(moveit_commander_SETUP_PY_MODULE_DIRS "")

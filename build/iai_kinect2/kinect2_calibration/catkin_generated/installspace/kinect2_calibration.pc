@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/install
+
+Name: kinect2_calibration
+Description: Description of kinect2_calibration
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/us-robot/catkin_ws/install/lib 
+Requires: 

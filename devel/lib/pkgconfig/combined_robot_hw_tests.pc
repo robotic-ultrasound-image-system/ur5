@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/devel
+
+Name: combined_robot_hw_tests
+Description: Description of combined_robot_hw_tests
+Version: 0.12.0
+Cflags: -I/home/us-robot/catkin_ws/src/ur5-master/ros_control-kinetic-devel/combined_robot_hw_tests/include
+Libs: -L/home/us-robot/catkin_ws/devel/lib -lcombined_robot_hw_tests
+Requires: combined_robot_hw hardware_interface roscpp

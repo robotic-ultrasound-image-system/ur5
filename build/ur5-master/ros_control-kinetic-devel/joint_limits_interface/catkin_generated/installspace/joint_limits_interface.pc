@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/install
+
+Name: joint_limits_interface
+Description: Description of joint_limits_interface
+Version: 0.12.0
+Cflags: -I/home/us-robot/catkin_ws/install/include -I/usr/include
+Libs: -L/home/us-robot/catkin_ws/install/lib -l:/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so -l:/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so -l:/usr/lib/x86_64-linux-gnu/liburdfdom_model.so -l:/usr/lib/x86_64-linux-gnu/liburdfdom_world.so -l:/usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+Requires: roscpp hardware_interface urdf

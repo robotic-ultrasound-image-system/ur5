@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/install
+
+Name: kinect2_bridge
+Description: Description of kinect2_bridge
+Version: 0.0.1
+Cflags: -I/home/us-robot/catkin_ws/install/include
+Libs: -L/home/us-robot/catkin_ws/install/lib 
+Requires: kinect2_registration

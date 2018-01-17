@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/us-robot/catkin_ws/install/setup.sh

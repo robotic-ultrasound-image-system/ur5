@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/install
+
+Name: controller_manager_tests
+Description: Description of controller_manager_tests
+Version: 0.12.0
+Cflags: -I/home/us-robot/catkin_ws/install/include
+Libs: -L/home/us-robot/catkin_ws/install/lib -lcontroller_manager_tests
+Requires: controller_manager controller_interface

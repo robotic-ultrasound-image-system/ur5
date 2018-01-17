@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/us-robot/catkin_ws/src/ur5-master/universal_robot-kinetic-devel/ur_kinematics/include/ur_kinematics/ikfast.h
+vector
+-
+list
+-
+stdexcept
+-
+
+/home/us-robot/catkin_ws/src/ur5-master/universal_robot-kinetic-devel/ur_kinematics/include/ur_kinematics/ur_kin.h
+
+/home/us-robot/catkin_ws/src/ur5-master/universal_robot-kinetic-devel/ur_kinematics/src/ur_kin.cpp
+ur_kinematics/ur_kin.h
+-
+math.h
+-
+stdio.h
+-
+ur_kinematics/ikfast.h
+-
+
