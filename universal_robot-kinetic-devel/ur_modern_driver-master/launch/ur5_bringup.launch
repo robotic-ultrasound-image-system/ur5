@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+  Universal robot ur5 launch.  Loads ur5 robot description (see ur_common.launch
+  for more info)
+
+  Usage:
+    ur5_bringup.launch robot_ip:=<value>
+-->
+<launch>
+  <!-- add kinect2 frame -->
+  <node name="kinect2_viewer" pkg="kinect2_viewer" type="kinect2_viewer"/>
+  <node name="tf_broadcaster" pkg="robot_setup_tf" type="tf_broadcaster"/>
+  <node name="tf_listener"    pkg="robot_setup_tf" type="tf_listener"/>
+
+
+
+  <!-- robot_ip: IP-address of the robot's socket-messaging server -->
+  <arg name="robot_ip" default="192.168.1.5"/>
+  <arg name="limited" default="true"/>
+  <arg name="min_payload"  default="0.0"/>
+  <arg name="max_payload"  default="5.0"/>
+  <arg name="prefix" default="" />
+  <!-- robot model -->
+  <include file="$(find ur_description)/launch/ur5_upload.launch">
+    <arg name="limited" value="$(arg limited)"/>
+  </include>
+  
+  <!-- ur common -->
+  <include file="$(find ur_modern_driver)/launch/ur_common.launch">
+    <arg name="prefix"  value="$(arg prefix)" />
+    <arg name="robot_ip" value="$(arg robot_ip)"/>
+    <arg name="min_payload"  value="$(arg min_payload)"/>
+    <arg name="max_payload"  value="$(arg max_payload)"/>
+  </include>
+
+  <!-- kinect2_bridge -->
+  <include file="$(find kinect2_bridge)/launch/kinect2_bridge.launch">
+  </include>
+
+
+
+
+
+</launch>

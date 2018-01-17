@@ -1,0 +1,17 @@
+planvisio.py   监听　kinect2/click_point/left   cartesian_path
+
+playur5.py     监听　joy                 　
+simviso.py     监听　kinect2/click_point/left　　　　ur_gazebo
+
+testik.py         設置末端姿態　　　 test_ik9.py　　　９月份歷史版本
+
+test_move.py    　　設置jointstate
+
+testpy.py         python 路徑規劃
+testtcp.py        設置關節狀態路徑規劃
+
+tetttrans.py      接受幾座點　失敗。
+
+testvisio.py      監聽/pose_drawer    接受幾座點坐標路徑規劃　　末端點
+
+visioline.py      監聽/kinect2/path_navigation   嘗試接受相機坐標系的路徑點
