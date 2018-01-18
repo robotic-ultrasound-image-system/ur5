@@ -21,10 +21,9 @@
   ### Members
    |Name|Sex|Grade|Field|TEL|
    :----:|:----|-----:|------:|:------:|
-   |ZhangJuan|F|Third|Computer Vision|13728891675|
-   |WuShiyao|M|Second|Robot Control|15623768510|
-   |WangHaixia|F|First|3D Reconstruct|13650409987|
-   |LiRui|M|First|Team Manager|17724601120|
+   |ZhangJuan|F|Third|Computer Vision|
+   |WuShiyao|M|Second|Robot Control|
+   |LiRui|M|First|Team Manager|
  
  
  
