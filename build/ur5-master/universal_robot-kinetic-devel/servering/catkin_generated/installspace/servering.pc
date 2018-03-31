@@ -1,0 +1,8 @@
+prefix=/home/us-robot/catkin_ws/install
+
+Name: servering
+Description: Description of servering
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/us-robot/catkin_ws/install/lib 
+Requires: 

@@ -1869,19 +1869,6 @@ kinect2_registration/fast:
 .PHONY : kinect2_registration/fast
 
 #=============================================================================
-# Target rules for targets named testgui
-
-# Build rule for target.
-testgui: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testgui
-.PHONY : testgui
-
-# fast build rule for target.
-testgui/fast:
-	$(MAKE) -f testgui/CMakeFiles/testgui.dir/build.make testgui/CMakeFiles/testgui.dir/build
-.PHONY : testgui/fast
-
-#=============================================================================
 # Target rules for targets named controller_manager_tests
 
 # Build rule for target.
@@ -5326,71 +5313,6 @@ easy_handeye_genpy/fast:
 	$(MAKE) -f easy_handeye-master/easy_handeye/CMakeFiles/easy_handeye_genpy.dir/build.make easy_handeye-master/easy_handeye/CMakeFiles/easy_handeye_genpy.dir/build
 .PHONY : easy_handeye_genpy/fast
 
-#=============================================================================
-# Target rules for targets named visp_ros_afma6_node
-
-# Build rule for target.
-visp_ros_afma6_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visp_ros_afma6_node
-.PHONY : visp_ros_afma6_node
-
-# fast build rule for target.
-visp_ros_afma6_node/fast:
-	$(MAKE) -f visp_ros/CMakeFiles/visp_ros_afma6_node.dir/build.make visp_ros/CMakeFiles/visp_ros_afma6_node.dir/build
-.PHONY : visp_ros_afma6_node/fast
-
-#=============================================================================
-# Target rules for targets named visp_ros
-
-# Build rule for target.
-visp_ros: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visp_ros
-.PHONY : visp_ros
-
-# fast build rule for target.
-visp_ros/fast:
-	$(MAKE) -f visp_ros/CMakeFiles/visp_ros.dir/build.make visp_ros/CMakeFiles/visp_ros.dir/build
-.PHONY : visp_ros/fast
-
-#=============================================================================
-# Target rules for targets named visp_ros_biclops_node
-
-# Build rule for target.
-visp_ros_biclops_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visp_ros_biclops_node
-.PHONY : visp_ros_biclops_node
-
-# fast build rule for target.
-visp_ros_biclops_node/fast:
-	$(MAKE) -f visp_ros/CMakeFiles/visp_ros_biclops_node.dir/build.make visp_ros/CMakeFiles/visp_ros_biclops_node.dir/build
-.PHONY : visp_ros_biclops_node/fast
-
-#=============================================================================
-# Target rules for targets named visp_ros_viper850_node
-
-# Build rule for target.
-visp_ros_viper850_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visp_ros_viper850_node
-.PHONY : visp_ros_viper850_node
-
-# fast build rule for target.
-visp_ros_viper850_node/fast:
-	$(MAKE) -f visp_ros/CMakeFiles/visp_ros_viper850_node.dir/build.make visp_ros/CMakeFiles/visp_ros_viper850_node.dir/build
-.PHONY : visp_ros_viper850_node/fast
-
-#=============================================================================
-# Target rules for targets named visp_ros_viper650_node
-
-# Build rule for target.
-visp_ros_viper650_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visp_ros_viper650_node
-.PHONY : visp_ros_viper650_node
-
-# fast build rule for target.
-visp_ros_viper650_node/fast:
-	$(MAKE) -f visp_ros/CMakeFiles/visp_ros_viper650_node.dir/build.make visp_ros/CMakeFiles/visp_ros_viper650_node.dir/build
-.PHONY : visp_ros_viper650_node/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -5535,7 +5457,6 @@ help:
 	@echo "... controller_manager"
 	@echo "... additional_files_kinect2_registration"
 	@echo "... kinect2_registration"
-	@echo "... testgui"
 	@echo "... controller_manager_tests"
 	@echo "... _run_tests_controller_manager_tests_nosetests"
 	@echo "... run_tests_controller_manager_tests_nosetests_test"
@@ -5801,11 +5722,6 @@ help:
 	@echo "... _easy_handeye_generate_messages_check_deps_HandeyeCalibration"
 	@echo "... easy_handeye_gennodejs"
 	@echo "... easy_handeye_genpy"
-	@echo "... visp_ros_afma6_node"
-	@echo "... visp_ros"
-	@echo "... visp_ros_biclops_node"
-	@echo "... visp_ros_viper850_node"
-	@echo "... visp_ros_viper650_node"
 .PHONY : help
 
 

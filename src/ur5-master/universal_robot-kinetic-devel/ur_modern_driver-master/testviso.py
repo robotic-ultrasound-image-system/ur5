@@ -51,19 +51,13 @@ def move_joint(wpoint):
 
       target_pose.pose.position.x=wpoint.pose.position.x
       target_pose.pose.position.y=wpoint.pose.position.y
-      target_pose.pose.position.z=wpoint.pose.position.z+0.249
+      target_pose.pose.position.z=wpoint.pose.position.z+0.092+0.05
       
       arm.set_pose_target(target_pose,end_effector_link)
       print target_pose
       traj=arm.plan()
       arm.execute(traj)
-      rospy.sleep(2)
-      arm.set_start_state_to_current_state()
-      target_pose.pose.position.x=target_pose.pose.position.x+0.08
-      target_pose.pose.position.z=target_pose.pose.position.z
-      arm.set_pose_target(target_pose,end_effector_link)
-      traj=arm.plan()
-      arm.execute(traj)
+      
       rospy.sleep(2)
       arm.set_start_state_to_current_state()
       arm.set_pose_target(saved_target_pose,end_effector_link)
