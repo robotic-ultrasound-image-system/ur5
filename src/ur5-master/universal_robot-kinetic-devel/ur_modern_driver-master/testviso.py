@@ -58,7 +58,7 @@ def move_joint(wpoint):
       traj=arm.plan()
       arm.execute(traj)
       
-      rospy.sleep(2)
+      rospy.sleep(12)
       arm.set_start_state_to_current_state()
       arm.set_pose_target(saved_target_pose,end_effector_link)
       traj=arm.plan()
